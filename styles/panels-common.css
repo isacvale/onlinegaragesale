@@ -1,0 +1,26 @@
+
+@import 'panel-left.css';
+@import 'panel-middle.css';
+@import 'panel-right.css';
+
+.area-cart,
+.area-categories {
+  color: white;
+  flex-basis: 25%;
+  padding: var(--s-1);
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+main h1,
+main h2,
+.area-cart h1,
+.area-categories h1 {
+  font-size: var(--s-2);
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: var(--s);
+  line-height: 1.1;
+  text-align: center;
+}

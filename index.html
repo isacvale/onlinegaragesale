@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <aside class="area-categories">
+    <h1>Você quer algum desses?</h1>
+    <div class="category-wrapper">
+      <template id="tpl-menu-item">
+        <button class="menu-item focusable"></div>
+      </template>
+    </div>
+  </aside>
+
+  <main>
+    <header>
+      <h1>Nani's going to Canada</h1>
+      <img alt="" src="assets/family_02_opt.svg">
+      <h2>Online garage sale</h2>
+    </header>
+
+    <div class="family-logo-big">
+      <img alt="Nani's going to Canada Online Garage Sale." src="assets/family_03_opt.svg">
+    </div>
+
+    <div class="area-catalog">
+      <template id="tpl-item-card">
+        <article class="item-card">
+          <img class="bought-icon" src="assets/bought.svg" alt="Item selecionado.">
+          <img alt="" class="item-card-image">
+          <header>
+            <h1 class="item-card-name"></h1>
+            <div class="item-card-price"></div>
+          </header>
+          <div class="item-card-short"></div>
+          <footer>
+            <button class="item-card-button focusable">ver detalhes</button>
+          </footer>
+        </article>
+      </template>
+    </div>
+  </main>
+
+  <aside class="area-cart">
+    <h1>Sua lista</h1>
+    <div class="added-wrapper"></div>
+    <button class="focusable">Enviar</button>
+  </aside>
+
+  <script type="module" src="scripts/main.js"></script>
+
+  <template id="tpl-item-modal">
+    <article class="item-modal">
+      <div class="item-modal-card">
+        <img class="bought-icon" src="assets/bought.svg" alt="Item selecionado.">
+        <div class="item-modal-carousel">
+          <img alt="" class="item-modal-image">
+          <div class="item-modal-carousel-selection">
+            <template id="tpl-item-modal-carousel-pic">
+              <img alt="" class="item-modal-carousel-pic focusable" tabindex="1">
+            </template>
+          </div>
+        </div>
+        <header>
+          <h1 class="item-modal-name"></h1>
+          <div class="item-modal-price"></div>
+        </header>
+        <div class="item-modal-short"></div>
+        <div class="item-modal-long"></div>
+        <footer>
+          <button class="item-modal-button item-modal-button-fechar focusable _on" tabindex="1" data-action="fechar">fechar</button>
+          <button class="item-modal-button item-modal-button-acrescentar focusable" tabindex="1" data-actions="acrescentar">acrescentar</button>
+          <button class="item-modal-button item-modal-button-retirar focusable" tabindex="1" data-actions="retirar">retirar</button>
+        </footer>
+      </div>
+    </article>
+  </template>
+</body>
+</html>

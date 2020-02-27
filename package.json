@@ -1,0 +1,15 @@
+{
+  "name": "nani2canada",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dvo/raven": "^2.0.0",
+    "@dvo/stamp": "0.0.4"
+  }
+}

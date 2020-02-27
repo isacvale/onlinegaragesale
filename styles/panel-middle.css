@@ -1,0 +1,70 @@
+main {
+  flex-basis: 50%;
+  min-width: 100vh;
+  padding: var(--s-1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main h1,
+main h2 {
+  color: var(--c-primary);
+}
+
+main > header {
+  display: none;
+  justify-content: space-evenly;
+  opacity: 0;
+  margin-top: var(--s-2);
+  transition: all .3s;
+}
+
+main > header._on {
+  display: flex;
+  opacity: 1;
+  margin-top: 0;
+}
+
+main > header h1,
+main > header h2 {
+  display: block;
+  width: 30em;
+  width: var(--s-8);
+}
+main > header h1 {
+  text-align: right;
+}
+main > header h2 {
+  text-align: left;
+}
+main > header img {
+  height: 120px;
+  height: var(--s-5);
+  margin: var(--s-n) var(--s) 0;
+}
+
+.family-logo-big {
+  align-self: center;
+  display: none;
+  opacity: 0;
+  flex: 1;
+  align-items: center;
+  transition: all .3s;
+}
+
+.family-logo-big._on {
+  display: flex;
+  opacity: 1;
+  padding-top: 0;
+}
+
+.family-logo-big img {
+  height: 60vmin;
+  transform: translateY(var(--s-3));
+  transition: all .3s;
+}
+
+.family-logo-big._on img {
+  transform: translateY(0);
+}

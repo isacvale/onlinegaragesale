@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Josefin+Sans:300,400,400i,700&display=swap');
+
+:root {
+  --f-sans: 'Josefin Sans';
+  --f-cursive: 'Annie Use Your Telescope';
+
+  --c-primary: hsl(4, 75%, 48%);
+  --c-primary-l: hsl(4, 75%, 28%);
+  --c-accent-1: hsl(0, 0%, 80%);
+  --c-accent-1-l: hsl(0, 0%, 50%);
+  --c-shadow: hsla(0, 0%, 0%, 0.2);
+  --c-shadow-l: hsla(0, 0%, 0%, 0.6);
+
+  --s: 16px;
+  --s: calc(11px + 0.4vw);
+  --s-scale: 1.5;
+
+  --s-1: calc(var(--s-scale) * var(--s));
+  --s-2: calc(var(--s-scale) * var(--s-1));
+  --s-3: calc(var(--s-scale) * var(--s-2));
+  --s-4: calc(var(--s-scale) * var(--s-3));
+  --s-5: calc(var(--s-scale) * var(--s-4));
+  --s-6: calc(var(--s-scale) * var(--s-5));
+  --s-7: calc(var(--s-scale) * var(--s-6));
+  --s-8: calc(var(--s-scale) * var(--s-7));
+  --s-9: calc(var(--s-scale) * var(--s-8));
+
+  --s-1s: calc(var(--s) / var(--s-scale));
+  --s-2s: calc(var(--s-1s) / var(--s-scale));
+  --s-3s: calc(var(--s-2s) / var(--s-scale));
+  --s-4s: calc(var(--s-3s) / var(--s-scale));
+  --s-5s: calc(var(--s-4s) / var(--s-scale));
+  --s-6s: calc(var(--s-5s) / var(--s-scale));
+
+  --s-n: calc(-1 * var(--s));
+
+  --s-1n: calc(-1 * var(--s-scale) * var(--s));
+  --s-2n: calc(-1 * var(--s-scale) * var(--s-1));
+  --s-3n: calc(-1 * var(--s-scale) * var(--s-2));
+  --s-4n: calc(-1 * var(--s-scale) * var(--s-3));
+  --s-5n: calc(-1 * var(--s-scale) * var(--s-4));
+  --s-6n: calc(-1 * var(--s-scale) * var(--s-5));
+  --s-7n: calc(-1 * var(--s-scale) * var(--s-6));
+  --s-8n: calc(-1 * var(--s-scale) * var(--s-7));
+  --s-9n: calc(-1 * var(--s-scale) * var(--s-8));
+}
+
+body {
+  margin: 0;
+  font-family: var(--f-sans);
+  font-weight: 700;
+  /* padding: 0; */
+}

@@ -1,0 +1,27 @@
+.area-cart {
+  box-shadow: inset 16px 0 8px -8px var(--c-shadow);
+
+  background: linear-gradient(
+    215deg,
+    var(--c-primary) 40%,
+    white 200%
+  );
+}
+
+.area-cart > button {
+  border: 1px solid white;
+  cursor: pointer;
+  padding: var(--s-1);
+  background: transparent;
+  font-size: var(--s);
+  color: white;
+  font-family: var(--f-sans);
+}
+
+.area-cart > button:hover {
+  background: hsla(0, 0%, 100%, 0.2);
+}
+
+.added-wrapper {
+  flex: 1;
+}

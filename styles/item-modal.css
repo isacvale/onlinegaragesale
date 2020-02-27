@@ -1,0 +1,123 @@
+.blurry main,
+.blurry aside {
+  filter: blur(var(--s-4s));
+}
+
+.item-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    135deg,
+    var(--c-shadow-l) 40%,
+    var(--c-primary-l) 120%
+  ),
+  url(
+    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQYV2NkQAX/GZH4/xkYGBhhAmAOSBJEwDkgAQCCrgQEjpMcPgAAAABJRU5ErkJggg==
+  ) repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-modal-card {
+  width: 70vmin;
+  height: 70vmin;
+  min-height: fit-content;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 var(--s) var(--s-2s) var(--c-shadow);
+  position: relative;
+}
+
+.item-modal-carousel {
+  max-height: 50vmin;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-modal-image {
+  width: 100%;
+  height: calc( 100% - var(--s-3));
+  flex: 1;
+  object-fit: cover;
+}
+
+.item-modal-carousel-selection {
+  max-height: var(--s-3);
+  display: flex;
+  justify-content: center;
+}
+
+.item-modal-carousel-pic {
+  position: relative;
+  max-width: 25%;
+  object-fit: cover;
+}
+
+.item-modal-carousel-pic:focus {
+  z-index: 1;
+  transform: scale(1.05);
+}
+
+.item-modal header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--s-1s);
+}
+
+.item-modal-price,
+.item-modal-name {
+  color: var(--c-primary);
+  font-family: var(--f-sans);
+  font-size: calc(var(--s-2) * 0.6);
+  line-height: var(--s-2);
+}
+
+.item-modal-short,
+.item-modal-long {
+  font-size: var(--s);
+  font-weight: 400;
+  padding: 0 var(--s-1s);
+  margin: 0 0 var(--s-2s);
+}
+
+.item-modal-long {
+  flex: 1;
+}
+.item-modal footer {
+  margin-top: var(--s-1s);
+  display: flex;
+  flex-direction: row;
+}
+
+.item-modal footer::before {
+  border-top: 1px solid var(--c-accent-1);
+  content: "";
+  position: absolute;
+  width: 35vmin;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.item-modal-button {
+  background: white;
+  border: none;
+  /* color: var(--c-accent-1-l); */
+  font-family: var(--f-sans);
+  font-size: var(--f-s);
+  padding: var(--s);
+  width: 100%;
+  display: none;
+  cursor: pointer;
+}
+
+.item-modal-button._on {
+  display: block;
+}

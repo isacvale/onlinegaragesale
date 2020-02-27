@@ -1,0 +1,47 @@
+@import 'theme.css';
+@import 'item-card.css';
+@import 'item-modal.css';
+@import 'panels-common.css';
+
+body {
+  display: flex;
+  /* flex-wrap: wrap; */
+  min-height: 100vh;
+}
+
+h1, h2 {
+  font-family: var(--f-cursive);
+}
+
+.focusable {
+  outline: none;
+  box-shadow: 0 0 0 0 hsla(0, 0%, 0%, 0);
+  transition: box-shadow 0.3s;
+  position: relative;
+}
+
+.focusable:focus {
+  outline: none;
+  box-shadow: 0 0 0 var(--s-4s) hsla(0, 0%, 0%, 0.25);
+  z-index: 1;
+}
+
+.bought-icon {
+  /* display: none; */
+  position: absolute;
+  top: var(--s);
+  right: var(--s);
+  width: 25%;
+  max-width: 84px;
+  border-radius: 50%;
+  box-shadow: 0 0 var(--s-3s) var(--s-2s) var(--c-shadow);
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+
+.bought-icon._on {
+  /* display: block; */
+  opacity: 1;
+  transform: scale(1);
+}
