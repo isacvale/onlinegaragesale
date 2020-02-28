@@ -2,6 +2,9 @@
   display: flex;
   flex-wrap: wrap;
   padding: var(--s-2s);
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .item-card {
@@ -67,4 +70,42 @@
   padding: var(--s);
   width: 100%;
   cursor: pointer;
+}
+
+
+
+/* Testing: slightly smaller cards*/
+
+.item-card {
+  flex-basis: 220px;
+  margin: var(--s-3s);
+  max-width: var(--s-7);
+}
+
+.item-card-image {
+  height: var(--s-6);
+}
+
+.item-card header{
+  padding: var(--s-1s);
+}
+
+.item-card-name,
+.item-card-price {
+  font-size: calc(var(--s-2) * 0.6);
+  line-height: var(--s-2);
+}
+
+.item-card-short {
+  font-size: var(--s);
+  padding: 0 var(--s-1s);
+}
+
+.item-card footer {
+  margin-top: var(--s-1s);
+}
+
+.item-card-button {
+  font-size: var(--f-s);
+  padding: var(--s-1s);
 }

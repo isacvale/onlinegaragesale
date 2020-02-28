@@ -3,6 +3,7 @@
 @import 'item-modal.css';
 @import 'item-brief.css';
 @import 'panels-common.css';
+@import 'responsive.css';
 
 body {
   display: flex;

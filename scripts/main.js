@@ -16,7 +16,7 @@ window.onload = () => {
   raven.subscribe('selectedCategories', loadFamilyLogo)
   raven.subscribe('selectedItems', showSelectionOnCards)
   raven.subscribe('selectedItems', updateItemsInCart)
-  raven.set({ selectedCategories: ['CDs']})
+  // raven.set({ selectedCategories: ['CDs']})
   setEventListeners()
 }
 

@@ -1,0 +1,29 @@
+@media (max-width: 1550px) {
+  body {
+    flex-direction: column;
+  }
+
+  main {
+    min-height: calc(100vh - 250px);
+  }
+
+  .added-wrapper,
+  .category-wrapper {
+    flex-direction: row;
+  }
+
+  .item-brief-button,
+  .menu-item {
+    margin: 0 var(--s-4s);
+    padding-left: var(--s-2);
+    padding-right: var(--s-2);
+  }
+
+  .item-brief-price {
+    margin-left: var(--s);
+  }
+
+  .area-cart > button {
+    margin-top: var(--s-1);
+  }
+}
