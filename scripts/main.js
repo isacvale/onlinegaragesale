@@ -15,6 +15,7 @@ window.onload = () => {
   raven.subscribe('selectedCategories', loadItems)
   raven.subscribe('selectedCategories', loadFamilyLogo)
   raven.subscribe('selectedItems', showSelectionOnCards)
+  raven.subscribe('selectedItems', updateItemsInCart)
   raven.set({ selectedCategories: ['CDs']})
   setEventListeners()
 }
@@ -39,16 +40,11 @@ function loadItems () {
   // Stamp in items that match categories
   Stamp('#tpl-item-card')
     .alias('itemCard')
+    .target('.area-catalog')
     .clear()
   selectedItems.forEach(item => {
     Stamp('itemCard')
-      .change(el => {
-        el.querySelector('.item-card-name').textContent = item.name
-        el.querySelector('.item-card-price').textContent = item.price
-        el.querySelector('.item-card-short').textContent = item.short
-        el.querySelector('.item-card-image').setAttribute('src', `./assets/pics/${item.images[0]}`)
-        el.querySelector('.item-card-button').setAttribute('data-alias', item.alias)
-      })
+      .change(ev => changeCard(ev, item))
       .stamp()
   })
 
@@ -59,6 +55,18 @@ function loadItems () {
       ? menuItem.classList.add('_selected')
       : menuItem.classList.remove('_selected')
   })
+}
+
+function changeCard (el, item) {
+  el.setAttribute('data-alias', item.alias)
+  el.querySelector('.item-card-name').textContent = item.name
+  el.querySelector('.item-card-price').textContent = item.price
+  el.querySelector('.item-card-short').textContent = item.short
+  el.querySelector('.item-card-image').setAttribute('src', `./assets/pics/${item.images[0]}`)
+  el.querySelector('.item-card-button').setAttribute('data-alias', item.alias)
+  el.querySelector('.item-card-name').textContent = item.name
+  if (window.g.store.selectedItems.includes(item.alias))
+    el.querySelector('.bought-icon').classList.add('_on')
 }
 
 function loadFamilyLogo () {
@@ -79,6 +87,51 @@ function showSelectionOnCards () {
   const cards = document.querySelectorAll('.item-card')
   cards.forEach(card => {
     const alias = card.getAttribute('data-alias')
-    console.log('aaaaa', alias)
+    if (window.g.store.selectedItems.includes(alias))
+      card.querySelector('.bought-icon').classList.add('_on')
+    else
+      card.querySelector('.bought-icon').classList.remove('_on')
   })
+}
+
+function updateItemsInCart () {
+  const stamp = Stamp('#tpl-item-brief')
+    .target('.added-wrapper')
+    .clear()
+  const selectedItems = window.g.store.selectedItems
+    .map(alias => window.g.store.items.find(item => item.alias == alias))
+
+  // Update items in cart
+  selectedItems.forEach(item => {
+    stamp
+      .change(ev => changeBrief(ev, item))
+      .stamp()
+  })
+
+  // Show/hide cart
+  const cart = document.querySelector('.area-cart')
+  if (selectedItems.length)
+    cart.classList.add('_on')
+  else 
+    cart.classList.remove('_on')
+
+  // Update title
+  const title = document.querySelector('.area-cart > h1')
+  if (selectedItems.length)
+    title.textContent = "Sua lista"
+  else
+    title.textContent = "Lista vazia"
+
+  // Update total price
+  const sendButton = document.querySelector('.area-cart > button')
+  const totalPrize = selectedItems.reduce((acc, item) => acc + item.price, 0)
+  sendButton.textContent = `Comprar (total $${totalPrize})`
+
+}
+
+function changeBrief (el, item) {
+  el.setAttribute('data-alias', item.alias)
+  el.querySelector('.item-brief-name').textContent = `${item.type}: ${item.name}`
+  el.querySelector('.item-brief-price').textContent = item.price
+  el.querySelector('.item-brief-button').setAttribute('data-alias', item.alias)
 }
