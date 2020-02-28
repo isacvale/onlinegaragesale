@@ -28,6 +28,16 @@ const eventListeners = [
         createItemModal(alias)        
       }
     })
+
+    const cart = document.querySelector('.added-wrapper')
+    cart.addEventListener('click', ev => {
+      console.log('qwqw', ev)
+      const btn = ev.path.find(el => el.tagName == 'BUTTON')
+      if (btn && btn.classList.contains('item-brief-button')) {
+        const alias = btn.getAttribute('data-alias')
+        createItemModal(alias)        
+      }
+    })
   }
 ]
 

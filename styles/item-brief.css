@@ -1,0 +1,33 @@
+.added-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-brief {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: var(--s-5s) 0;
+}
+
+.item-brief-button{
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--s-1s);
+}
+
+.item-brief-name,
+.item-brief-price {
+  color: white;
+  font-family: var(--f-sans);
+  /* font-size: calc(var(--s-2) * 0.6); */
+  font-size: calc(var(--s-1) * 0.6);
+  line-height: var(--s-1);
+  margin: 0;
+}

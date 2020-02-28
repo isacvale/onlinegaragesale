@@ -1,7 +1,9 @@
 @import 'theme.css';
 @import 'item-card.css';
 @import 'item-modal.css';
+@import 'item-brief.css';
 @import 'panels-common.css';
+@import 'responsive.css';
 
 body {
   display: flex;
@@ -29,12 +31,12 @@ h1, h2 {
 .bought-icon {
   /* display: none; */
   position: absolute;
-  top: var(--s);
-  right: var(--s);
-  width: 25%;
+  top: var(--s-1);
+  right: var(--s-1);
+  width: 12%;
   max-width: 84px;
   border-radius: 50%;
-  box-shadow: 0 0 var(--s-3s) var(--s-2s) var(--c-shadow);
+  box-shadow: 0 0 var(--s-1s) var(--s-2s) var(--c-shadow);
   opacity: 0;
   transform: scale(0);
   transition: all 0.3s;

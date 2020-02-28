@@ -1,6 +1,6 @@
 main {
   flex-basis: 50%;
-  min-width: 100vh;
+  /* min-width: 100vh; */
   padding: var(--s-1);
   display: flex;
   flex-direction: column;
@@ -47,24 +47,24 @@ main > header img {
 .family-logo-big {
   align-self: center;
   display: none;
-  opacity: 0;
   flex: 1;
   align-items: center;
-  transition: all .3s;
+  /* transition: all .3s; */
 }
 
 .family-logo-big._on {
   display: flex;
-  opacity: 1;
-  padding-top: 0;
+  /* padding-top: 0; */
 }
 
 .family-logo-big img {
   height: 60vmin;
   transform: translateY(var(--s-3));
-  transition: all .3s;
+  transition: all .5s;
+  opacity: 0;
 }
 
 .family-logo-big._on img {
   transform: translateY(0);
+  opacity: 1;
 }

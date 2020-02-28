@@ -75,14 +75,14 @@ function stampThumbnails (item) {
 
 const onAddItem = ev => {
   const alias = ev.path[0].getAttribute('data-alias')
-  raven.set('selectedItems', [...window.g.store.selectedItems, alias])
+  raven.set({ selectedItems: [...window.g.store.selectedItems, alias]})
   checkItemButtons(alias)
 }
 const onRemoveItem = ev => {
   const alias = ev.path[0].getAttribute('data-alias')
-  raven.set('selectedItems',
+  raven.set({ selectedItems:
     window.g.store.selectedItems.filter(item => item != alias)
-  )
+  })
   checkItemButtons(alias)
 }
 

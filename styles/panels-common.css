@@ -15,7 +15,7 @@
 
 main h1,
 main h2,
-.area-cart h1,
+.area-cart > h1,
 .area-categories h1 {
   font-size: var(--s-2);
   font-weight: 400;
@@ -24,3 +24,11 @@ main h2,
   line-height: 1.1;
   text-align: center;
 }
+
+.area-cart:not(._on) > *:not(h1) {
+  display: none;
+}
+
+/* .area-cart._on {
+  display: flex;
+} */

@@ -10,7 +10,7 @@
 <body>
 
   <aside class="area-categories">
-    <h1>Você quer algum desses?</h1>
+    <h1>Categorias</h1>
     <div class="category-wrapper">
       <template id="tpl-menu-item">
         <button class="menu-item focusable"></div>
@@ -48,8 +48,17 @@
   </main>
 
   <aside class="area-cart">
-    <h1>Sua lista</h1>
-    <div class="added-wrapper"></div>
+    <h1>Lista vazia</h1>
+    <div class="added-wrapper">
+      <template id="tpl-item-brief">
+        <article class="item-brief">
+          <button class="item-brief-button focusable">
+            <h1 class="item-brief-name"></h1>
+            <div class="item-brief-price"></div>
+          </button>
+        </article>
+      </template>
+    </div>
     <button class="focusable">Enviar</button>
   </aside>
 
