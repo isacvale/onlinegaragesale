@@ -12,9 +12,10 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   justify-content: center;
 }
+
 
 /* .menu-item {
   background: transparent;
@@ -40,6 +41,7 @@
   text-align: left;
   line-height: var(--s-1);
   margin: var(--s-5s) 0;
+  text-transform: capitalize;
 }
 
 .menu-item:hover {

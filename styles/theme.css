@@ -5,9 +5,12 @@
   --f-cursive: 'Annie Use Your Telescope';
 
   --c-primary: hsl(4, 75%, 48%);
+  --c-primary-sl: hsl(4, 45%, 28%);
   --c-primary-l: hsl(4, 75%, 28%);
+  --c-primary-shadow:hsla(4, 75%, 48%, 0.3);
   --c-accent-1: hsl(0, 0%, 80%);
   --c-accent-1-l: hsl(0, 0%, 50%);
+  --c-accent-1-ll: hsl(0, 0%, 30%);
   --c-shadow: hsla(0, 0%, 0%, 0.2);
   --c-shadow-l: hsla(0, 0%, 0%, 0.6);
 

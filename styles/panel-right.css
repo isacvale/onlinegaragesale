@@ -6,6 +6,10 @@
     var(--c-primary) 40%,
     white 200%
   );
+
+  z-index: 1;
+  /* position: fixed;
+  bottom: 0; */
 }
 
 
@@ -36,7 +40,14 @@
   line-height: var(--s-3);
   padding: var(--s-1);
   background: var(--c-shadow);
+  background: linear-gradient(
+    180deg,
+    transparent -30%,
+    var(--c-primary-sl) 90%
+  );
   font-size: var(--s);
   color: white;
   font-family: var(--f-sans);
+  position: sticky;
+  bottom: 0;
 }

@@ -18,6 +18,7 @@ window.onload = () => {
   raven.subscribe('selectedItems', updateItemsInCart)
   // raven.set({ selectedCategories: ['CDs']})
   setEventListeners()
+  setTimeout(() => document.querySelector('.family-logo-big').classList.add('_on'), 200)
 }
 
 function loadCategories () {

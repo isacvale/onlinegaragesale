@@ -47,3 +47,7 @@ h1, h2 {
   opacity: 1;
   transform: scale(1);
 }
+
+.spacer {
+  flex-grow: 10;
+}

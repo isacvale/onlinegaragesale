@@ -4,12 +4,12 @@
   padding: var(--s-2s);
   flex: 1;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .item-card {
   background: white;
-  border: 1px solid var(--c-primary);
+  border: 1px solid var(--c-primary-shadow);
   display: flex;
   flex: 1;
   flex-basis: 300px;
@@ -64,7 +64,7 @@
 .item-card-button {
   background: white;
   border: none;
-  color: var(--c-accent-1-l);
+  color: var(--c-accent-1-ll);
   font-family: var(--f-sans);
   font-size: var(--f-s);
   padding: var(--s);
@@ -93,12 +93,15 @@
 .item-card-name,
 .item-card-price {
   font-size: calc(var(--s-2) * 0.6);
-  line-height: var(--s-2);
+  /* line-height: var(--s-2); */
+  line-height: 1.1;
+  text-align: left;
 }
 
 .item-card-short {
   font-size: var(--s);
   padding: 0 var(--s-1s);
+  flex: 1;
 }
 
 .item-card footer {

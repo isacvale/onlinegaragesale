@@ -47,9 +47,12 @@ function evClickOutside (ev) {
 }
 
 function evActivateThumbnail (ev) {
-  if (ev.path[0].classList.contains('item-modal-carousel-pic')) {
+  const target = ev.path.find(el =>
+     el.classList.contains('item-modal-carousel-pic-wrapper'))
+     
+  if (target) {
     document.querySelector('.item-modal-image')
-      .setAttribute('src', `./assets/pics/${ev.path[0].getAttribute('data-image')}`)
+      .setAttribute('src', `./assets/pics/${target.getAttribute('data-image')}`)
   }
 }
 
@@ -66,7 +69,7 @@ function stampThumbnails (item) {
   item.images.forEach(image => {
     stamp
       .change(el => {
-        el.setAttribute('src', `./assets/pics/${image}`)
+        el.querySelector('.item-modal-carousel-pic').setAttribute('src', `./assets/pics/${image}`)
         el.setAttribute('data-image', image)
       })
     .stamp()

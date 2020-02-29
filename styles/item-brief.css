@@ -1,7 +1,6 @@
 .added-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .item-brief {
@@ -20,6 +19,7 @@
   align-items: center;
   justify-content: space-between;
   padding: var(--s-1s);
+  text-align: left;
 }
 
 .item-brief-name,
@@ -30,4 +30,6 @@
   font-size: calc(var(--s-1) * 0.6);
   line-height: var(--s-1);
   margin: 0;
+  margin-left: 1em;
+  text-transform: capitalize;
 }

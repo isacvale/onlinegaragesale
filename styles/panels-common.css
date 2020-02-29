@@ -32,3 +32,22 @@ main h2,
 /* .area-cart._on {
   display: flex;
 } */
+
+@media (min-width: 1550px) {
+  .added-wrapper,
+  .category-wrapper {
+    padding-top: calc(var(--s-3) + 4px);
+    margin-bottom: var(--s-1);
+  }
+
+  .area-cart,
+  .area-categories {
+    height: calc(100vh - 2 * var(--s-1));
+    position: sticky;
+    top: 0;
+  }
+
+  main {
+    width: 50%;
+  }
+}

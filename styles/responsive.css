@@ -4,17 +4,21 @@
   }
 
   main {
-    min-height: calc(100vh - 250px);
+    /* min-height: calc(100vh - 250px); */
+    flex: 1;
   }
 
   .added-wrapper,
   .category-wrapper {
     flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
   }
 
   .item-brief-button,
   .menu-item {
-    margin: 0 var(--s-4s);
+    margin: var(--s-4s);
     padding-left: var(--s-2);
     padding-right: var(--s-2);
   }
@@ -25,5 +29,6 @@
 
   .area-cart > button {
     margin-top: var(--s-1);
+    line-height: 1;
   }
 }

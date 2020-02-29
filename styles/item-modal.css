@@ -20,6 +20,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 10;
+  overflow: auto;
 }
 
 .item-modal-card {
@@ -43,7 +45,8 @@
   width: 100%;
   height: calc( 100% - var(--s-3));
   flex: 1;
-  object-fit: cover;
+  object-fit: contain;
+  background: linear-gradient(135deg, var(--c-primary-l) 60%, white 200%);
 }
 
 .item-modal-carousel-selection {
@@ -52,22 +55,33 @@
   justify-content: center;
 }
 
-.item-modal-carousel-pic {
-  position: relative;
-  max-width: 25%;
-  object-fit: cover;
+.item-modal-carousel-pic-wrapper {
+  height: fit-content;
+  flex: 1;
+  height: var(--s-3);
+  background: orange;
+  display: flex;
 }
 
-.item-modal-carousel-pic:focus {
+.item-modal-carousel-pic-wrapper:focus {
   z-index: 1;
   transform: scale(1.05);
 }
+
+.item-modal-carousel-pic {
+  position: relative;
+  object-fit: cover;
+  height: 100%;
+  flex: 1;
+}
+
+
 
 .item-modal header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--s-1s);
+  padding: var(--s-1);
 }
 
 .item-modal-price,
@@ -82,7 +96,7 @@
 .item-modal-long {
   font-size: var(--s);
   font-weight: 400;
-  padding: 0 var(--s-1s);
+  padding: 0 var(--s-1);
   margin: 0 0 var(--s-1s);
   line-height: 1.3;
 }
