@@ -72,7 +72,7 @@ export default [
     short: 'Raquete de Chutes - América',
     long: 'Ideal para treinamento de chutes e velocidade. Ótimo estado.',
     images: [''],
-    price: 25,
+    price: 30,
     status: null,
     alias: 'es_raq_chutes'
   },
@@ -115,7 +115,7 @@ export default [
     type: 'infantil',
     name: 'Troninho infantil',
     short: 'Troninho infantil chicco em forma de patinho.',
-    long: 'Leve e facilmente transportável, com o centro removível para facilitar a limpeza.',
+    long: 'Leve e facilmente transportável, com o centro removível para facilitar a limpeza. Carinhosamente conhecido como duck potty.',
     images: [''],
     price: 15,
     status: null,
@@ -157,6 +157,166 @@ export default [
     alias: 'es_skate'
   },
 
+  {
+    type: 'esportes',
+    name: '2 Aparadores de soco',
+    short: 'Aparadores de soco',
+    long: '2 manoplas, aparadoras de soco da marca América em bom estado',
+    images: [''],
+    price: 20,
+    status: null,
+    alias: 'es_ap_soco'
+  },
+
+  {
+    type: 'esportes',
+    name: 'Rede de Voley',
+    short: 'Rede de Voley',
+    long: 'Rede para Voley da marca JMC nova.',
+    images: [''],
+    price: 30,
+    status: null,
+    alias: 'es_rede_voley'
+  },
+
+  {
+    type: 'esportes',
+    name: 'Caloi Snake',
+    short: 'Bicicleta caloi snake',
+    long: 'Bicicleta caloi snake em bom estado. Vendida com cadeado com senha (dessa eu ainda me lembro!) e bolsinha no banco para pequenos objetos.',
+    images: [''],
+    price: 80,
+    status: null,
+    alias: 'es_caloi_snake'
+  },
+
+  {
+    type: 'esportes',
+    name: 'Caloi Aspen',
+    short: 'Bicicleta caloi aspen',
+    long: 'Bicicleta caloi aspen usada. Precisa trocar as rodas. Fora isso, bom estado. Tem cadeado com senha que vai junto mas a senha foi esquecida. Não cobramos extra pelo desafio.',
+    images: [''],
+    price: 30,
+    status: null,
+    alias: 'es_caloi_aspen'
+  },
+
+  {
+    type: 'esportes',
+    name: 'Bola para pilates',
+    short: 'Bola para pilates oxer',
+    long: 'Bola para pilates da oxer em bom estado.',
+    images: [''],
+    price: 10,
+    status: null,
+    alias: 'es_pilates'
+  },
+
+  {
+    type: 'brinquedos',
+    name: 'Carrinho de Bonecas',
+    short: 'Carrinho de Bonecas - Baby Alive',
+    long: 'Este carrinho é perfeito para a criança brincar de nanar e passear com o bebê. Com capota regulável, enquanto brincam desenvolvem a coordenação motora muito importante na fase de crescimento. O carrinho ainda conta com haste para a criança empurrar, com design robusto e material leve facilita o transportamento do carrinho com a boneca. Dimensões aproximadas do carrinho (altura x largura x comprimento): 64 x 31 x 44 cm',
+    images: [''],
+    price: 30,
+    status: null,
+    alias: 'br_carr_bonecas'
+  },
+
+  {
+    type: 'esportes',
+    name: 'Bike Dog',
+    short: 'Cesta para andar de bicicleta com o seu cachorro ou com o cachorro de outra pessoa. Mas peça primeiro. Não roube cachorros.',
+    long: 'A cadeirinha bike dog foi desenvolvida especialmente para cães de pequeno porte. Ideal para quem pretende fazer um passeio com seu cão ao ar livre. Em bom estado.',
+    images: [''],
+    price: 15,
+    status: null,
+    alias: 'es_bike_dog'
+  },
+
+  {
+    type: 'brinquedos',
+    name: 'Mesa com cadeira da Barbie',
+    short: 'Mesinha com cadeira infantil',
+    long: 'Espaço para armazenamento dentro da mesa (o tampo da mesa é removível). ',
+    images: [''],
+    price: 30,
+    status: null,
+    alias: 'br_mesa_barbie'
+  },
+
+  {
+    type: 'infantil',
+    name: 'Grade para proteção de cama - Chicco',
+    short: 'Protetor de cama',
+    long: 'Seu sistema reclinável permite arrumar a cama e deitar o bebê sem que a grade precise ser removida, sendo fixada debaixo do colchão. A estrutura é feita em metal e tecido, e possui um bolso discreto para objetos. Pode ser utilizada em colchões com espessura máxima de 20 cm. Estrutura com fecho tipo compasso para se dobrar e guardar facilmente. Comprimento: 95 cm.',
+    images: [''],
+    price: 50,
+    status: null,
+    alias: 'inf_prot_cama'
+  },
+  {
+    type: 'brinquedos',
+    name: 'Andador do Mickey',
+    short: 'Andador de empurrar',
+    long: 'Com telefone de brinquedo. Tem botões com sons e luzes (não é alto demais mas pode ser desligado para paz de espírito dos adultos). Divertido e mais seguro que deixar a criança empurrando as cadeiras da mesa de jantar (acredite, ela vai tentar).',
+    images: [''],
+    price: 30,
+    status: null,
+    alias: 'br_andador'
+  },
+  {
+    type: 'infantil',
+    name: 'Carrinho e bebê conforto - Chicco',
+    short: 'Bravo Trio Travel System - Meridian',
+    long: 'Carrinho, bebê conforto e keyfit (permite fácil coloção do bebê conforto no banco do carro). Prático e fácil de transportar. Vai desde o nascimento até 22 kg. ',
+    images: [''],
+    price: 400,
+    status: null,
+    alias: 'inf_bravo'
+  },
+  {
+    type: 'livros',
+    name: 'Descobrindo a Psicologia',
+    short: 'Descobrindo a Psicologia',
+    long: 'Livro comprado para a matéria Introdução à Psicologia na faculdade. \"Esta obra reflete a crença de que a psicologia é um dos campos mais excitantes do conhecimento humano. Como nenhuma outra ciência, diz respeito à vida de todos de maneiras múltiplas e benéficas. Por isso um livro de psicologia pede e deve transmitir a relevância da pesquisa psicológica ao estudante de hoje. A psicologia é uma ciência incrivelmente diversa e dinâmica. Sem negligenciar os conceitos fundamentais, novos dados de pesquisas, abordagens e descobertas foram incorporados a praticamente todos os capítulos.\"',
+    By: 'Hockenbury, Don H.; Hockenbury, Sandra E.',
+    images: [''],
+    price: 20,
+    status: null,
+    alias: 'lv_desc_psicologia'
+  },
+  {
+    type: 'livros',
+    name: 'Jardinagem Perfeita',
+    short: 'Jardinagem Perfeita em até 30 minutos',
+    long: 'Ideias criativas para vasos, canteiros e jardins e mais de 80 projetos práticos e rápidos. Livro em perfeito estado.',
+    images: [''],
+    price: 30,
+    status: null,
+    alias: 'lv_jardin_perfeita'
+  },
+  {
+    type: 'blu-rays',
+    name: 'Branca de Neve',
+    short: 'Branca de Neve e os sete anões',
+    long: 'Blu-ray duplo da Branca de Neve da Disney em perfeito estado.',
+    images: [''],
+    price: 15,
+    status: null,
+    alias: 'bl_b_d_neve'
+  },
+
+  {
+    type: 'brinquedos',
+    name: 'Mesa com cadeira da Barbie',
+    short: 'Mesinha com cadeira infantil',
+    long: 'Espaço para armazenamento dentro da mesa (o tampo da mesa é removível). ',
+    images: [''],
+    price: 30,
+    status: null,
+    alias: 'br_mesa_barbie'
+  },
 
 
 
