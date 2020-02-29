@@ -1,0 +1,111 @@
+.email-modal-items-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.email-modal-item {
+  height: var(--s-5);
+  max-width: var(--s-6);
+  display: flex;
+  position: relative;
+}
+
+.email-modal-image {
+  object-fit: cover;
+  width: 100%;
+  filter: brightness(1.15) contrast(0.65);
+}
+
+.email-modal-item-price,
+.email-modal-item-selector {
+  position: absolute;
+  top: var(--s-1s);
+  right: var(--s);
+  font-size: var(--s-2);
+}
+.email-modal-item-price {
+  top: unset;
+  bottom: var(--s-1s);
+}
+
+.email-modal-item._off .email-modal-image {
+  filter: grayscale(80%) brightness(70%);
+}
+
+.email-modal-item._off .email-modal-item-price,
+.email-modal-item._off .email-modal-item-selector {
+  color: var(--c-white-shadow);
+}
+
+.email-modal-card > h1 {
+  font-family: var(--f-sans);
+  font-size: var(--s-3);
+  font-weight: 400;
+  text-align: center;
+  margin: var(--s-3) 0 var(--s-2);
+}
+
+.email-modal-card > p {
+  font-weight: 400;
+  padding: 0 var(--s-3);
+  margin: var(--s-1s);
+}
+
+.email-modal-card form {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+
+.email-modal-card textarea,
+.email-modal-card input {
+  width: 50%;
+  margin: var(--s-3s) 0;
+  margin-right: 25%;
+  min-height: var(--s-2);
+  padding: 0 var(--s-1);
+  box-sizing: border-box;
+}
+
+.email-modal-card textarea {
+  resize: vertical;
+  padding-bottom: calc( 2* var(--s-3s));
+  padding-top: calc( 2* var(--s-3s));
+}
+
+.email-modal-card label {
+  display: block;
+  width: 100%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+
+/* .text-area-label > span {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+} */
+
+.email-modal-card input[type="submit"] {
+  align-self: flex-end;
+}
+
+.email-modal-card input[type="submit"],
+.email-modal-card label > span {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 0.7em;
+  flex: 1;
+}
+
+.email-modal-card label > span {
+  margin-right: calc( 2* var(--s-3s));
+}
+
+.email-modal-card {
+  padding-bottom: var(--s-2);
+  height: fit-content;
+}

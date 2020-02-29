@@ -76,6 +76,45 @@
 
   <script type="module" src="scripts/main.js"></script>
 
+  <template id="tpl-email-modal">
+    <article class="email-modal">
+      <div class="email-modal-card">
+        <div class="email-modal-items-container">
+
+          <template id="tpl-email-modal-item">
+            <div class="email-modal-item">
+              <img alt="" class="email-modal-image">
+              <div class="email-modal-item-selector">✓</div>
+              <div class="email-modal-item-price"></div>
+            </div>
+          </template>
+
+        </div>
+        <h1>Total R$<span class="email-modal-total-price"></span></h1>
+        <p>Este formulário garantirá a reserva do produto, que deve ser apanhado em mãos. Por favor, preencha seu nome, email e em qual horário prefere apanhá-lo aqui no Condomínio Jardim Botânico V. Nós entraremos em contato para confirmar o horário e enviar a localização exata.</p>
+        <form>
+          <label>
+            <span>Nome</span>
+            <input type="text" name="nome">
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email">
+          </label>
+          <label>
+            <span>Data e horário</span>
+            <input type="datetime-local" name="data">
+          </label>
+          <label class="text-area-label">
+            <span>Comentários</span>
+            <textarea rows="3" name="comentario"></textarea>
+          </label>
+          <input type="submit" label="enviar">
+        </form>
+      </div>
+    </article>    
+  </template>
+
   <template id="tpl-item-modal">
     <article class="item-modal">
       <div class="item-modal-card">

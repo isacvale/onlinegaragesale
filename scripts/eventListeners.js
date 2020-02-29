@@ -1,6 +1,7 @@
 import Stamp from '../node_modules/@dvo/stamp/lib/stamp.js'
 import raven from '../node_modules/@dvo/raven/raven.mjs'
 import createItemModal from './itemModal.js'
+import createEmailModal from './emailModal.js'
 
 const eventListeners = [
 
@@ -31,12 +32,18 @@ const eventListeners = [
 
     const cart = document.querySelector('.added-wrapper')
     cart.addEventListener('click', ev => {
-      console.log('qwqw', ev)
       const btn = ev.path.find(el => el.tagName == 'BUTTON')
       if (btn && btn.classList.contains('item-brief-button')) {
         const alias = btn.getAttribute('data-alias')
         createItemModal(alias)        
       }
+    })
+  },
+
+  function setOpenEmailModal () {
+    const openEmailButton = document.querySelector('.area-cart > button')
+    openEmailButton.addEventListener('click', ev => {
+      createEmailModal()
     })
   }
 ]
