@@ -1,14 +1,5 @@
 export default [
-  {
-    type: 'CDs',
-    name: 'Elvis Presley',
-    short: 'A nice CD from the King.',
-    long: 'A very nice CD from the King.',
-    images: ['cd-elvis-01.jpg'],
-    price: 3,
-    status: null,
-    alias: 'cd_elvis_natal'
-  },
+
   {
     type: 'Video-game',
     name: 'Wii U',
