@@ -5,7 +5,7 @@ export default [
     name: 'Wii U',
     short: 'Wii U',
     long: 'O video-game mais hackeável da nintendo.',
-    images: ['videogame-wiiu-01.jpeg'],
+    images: ['vg_wiiu1.jpg', 'vg_wiiu2.jpg', 'vg_wiiu','vg_wiiu3'],
     price: 950,
     status: null,
     alias: 'wii_u'
