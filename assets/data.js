@@ -271,7 +271,7 @@ export default [
     short: 'Bravo Trio Travel System - Meridian',
     long: 'Carrinho, bebê conforto e keyfit (permite fácil coloção do bebê conforto no banco do carro). Prático e fácil de transportar. Vai desde o nascimento até 22 kg. ',
     images: [''],
-    price: 400,
+    price: 860,
     status: null,
     alias: 'inf_bravo'
   },
@@ -413,7 +413,7 @@ export default [
     short: 'TV 42 polegadas da AOC ',
     long: 'TV LCD da AOC. Funciona bem. Vai com o suporte para colocar na parede. Tem pouco mais de 10 anos. ',
     images: ['ob_tv_aoc.jpg', 'ob_tv_aoc1.jpg', 'ob_tv_aoc2.jpg', 'ob_tv_aoc3.jpg', 'ob_tv_aoc4.jpg', 'ob_tv_aoc5.jpg'],
-    price: 420,
+    price: 270,
     status: null,
     alias: '0b_tv_aoc'
   },
