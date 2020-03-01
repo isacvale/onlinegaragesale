@@ -112,3 +112,42 @@
   font-size: var(--f-s);
   padding: var(--s-1s);
 }
+
+/* Vendido */
+.item-modal-card._vendido,
+.item-card._vendido {
+  position: relative;
+}
+
+.item-modal-card._vendido .item-modal-price,
+.item-card._vendido .item-card-price {
+  text-decoration: line-through;
+  color: var(--c-shadow);
+}
+
+.item-modal-card._vendido .item-modal-image,
+.item-card._vendido .item-card-image {
+  position: relative;
+  filter: grayscale(70%) opacity(70%);
+}
+
+.item-modal-card._vendido::after,
+.item-card._vendido::after {
+  content: 'vendido';
+  top: var(--s-4);
+  position: absolute;
+  font-weight: 700;
+  background-color: var(--c-shadow);
+  color: white;
+  /* color: var(--c-white-shadow); */
+  z-index: 1;
+  font-size: var(--s-1);
+  line-height: 1.2;
+  padding-top: var(--s-3s);
+  text-align: center;
+  width: 100%;
+}
+
+.item-modal-card._vendido::after {
+  top: var(--s-6);
+ }

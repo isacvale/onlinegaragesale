@@ -7,6 +7,9 @@ function createItemModal (alias) {
     .find(item => item.alias == alias)
   Stamp('#tpl-item-modal')
     .change(el => {
+      if (item.status == 'vendido') {
+        el.querySelector('.item-modal-card').classList.add('_vendido')
+      }
       el.querySelector('.item-modal-name').textContent = item.name
       el.querySelector('.item-modal-price').textContent = item.price
       el.querySelector('.item-modal-short').textContent = item.short

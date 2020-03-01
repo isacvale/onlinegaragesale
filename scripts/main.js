@@ -79,6 +79,9 @@ function loadItems () {
 }
 
 function changeCard (el, item) {
+  if (item.status == 'vendido') {
+    el.classList.add('_vendido')
+  }
   el.setAttribute('data-alias', item.alias)
   el.querySelector('.item-card-name').textContent = item.name
   el.querySelector('.item-card-price').textContent = item.price

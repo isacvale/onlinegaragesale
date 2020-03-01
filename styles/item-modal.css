@@ -98,6 +98,7 @@
 
 .item-modal-short,
 .item-modal-long {
+  background: white;
   font-size: var(--s);
   font-weight: 400;
   padding: 0 var(--s-1);
@@ -145,3 +146,7 @@
 .item-modal-button._on {
   display: block;
 }
+
+.item-modal-card._vendido .item-modal-button-acrescentar {
+  display: none;
+ }
