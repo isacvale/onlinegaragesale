@@ -377,7 +377,7 @@ export default [
   },
 
   {
-    type: 'mv_est_tv',
+    type: 'móveis',
     name: 'Estante',
     short: 'Estante',
     long: 'Estante em meia altura. Serve como aparador mas aconselho usar porta-copos. Medidas: ',
@@ -410,7 +410,7 @@ export default [
   },
 
   {
-    type: 'video-game',
+    type: 'Video-game',
     name: 'PS3',
     short: 'Playstation 3',
     long: 'Videogame com 4 controles (2 funcionam bem)',
