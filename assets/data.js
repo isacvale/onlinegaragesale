@@ -172,23 +172,23 @@ export default [
 
   {
     type: 'esportes',
-    name: 'Caloi Snake',
+    name: 'Vendida! - Caloi Snake',
     short: 'Bicicleta caloi snake',
     long: 'Bicicleta caloi snake em bom estado. Vendida com cadeado com senha (dessa eu ainda me lembro!) e bolsinha no banco para pequenos objetos.',
     images: ['es_snake.jpg'],
-    price: 110,
-    status: null,
+    price: 150,
+    status: 'vendido',
     alias: 'es_caloi_snake'
   },
 
   {
     type: 'esportes',
-    name: 'Caloi Aspen',
+    name: 'Vendida! - Caloi Aspen',
     short: 'Bicicleta caloi aspen',
     long: 'Bicicleta caloi aspen usada. Precisa trocar as rodas. Fora isso, bom estado. Tem cadeado com senha que vai junto mas a senha foi esquecida. Não cobramos extra pelo desafio.',
     images: ['es_aspen.jpg'],
     price: 30,
-    status: null,
+    status: 'vendido',
     alias: 'es_caloi_aspen'
   },
 
