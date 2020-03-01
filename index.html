@@ -74,7 +74,6 @@
     <button class="focusable">Enviar</button>
   </aside>
 
-  <script type="module" src="scripts/main.js"></script>
 
   <template id="tpl-email-modal">
     <article class="email-modal">
@@ -115,6 +114,25 @@
     </article>    
   </template>
 
+  <template id="tpl-message-modal">
+    <article class="message-modal">
+      <div class="message-modal-card">
+        <h1 class="message-modal-title"></h1>
+        <p class="message-modal-body"></p>
+        <button class="focusable">OK</button>
+      </div>
+    </article>
+  </template>
+
+
+  <!-- <article class="message-modal">
+      <div class="message-modal-card">
+        <h1 class="message-modal-title">obrigado!</h1>
+        <p class="message-modal-body">Seu pedido foi registrado e entraremos em contato em breve.</p>
+        <button class="focusable">OK</button>
+      </div>
+    </article> -->
+
   <template id="tpl-item-modal">
     <article class="item-modal">
       <div class="item-modal-card">
@@ -143,5 +161,19 @@
       </div>
     </article>
   </template>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-analytics.js"></script>
+   <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-firestore.js"></script>
+
+
+  <script type="module" src="scripts/main.js"></script>
+
 </body>
 </html>

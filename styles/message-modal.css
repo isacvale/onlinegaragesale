@@ -1,0 +1,43 @@
+.message-modal-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: unset;
+  padding: 15vmin;
+  box-sizing: border-box;
+}
+
+.message-modal-title,
+.message-modal-body {
+  /* max-width: 70%; */
+  margin: 0 auto;
+}
+
+.message-modal-title {
+  font-size: var(--s-4);
+  padding: var(--s);
+  /* color: var(--c-primary-l); */
+}
+
+.message-modal-body {
+  font-weight: 300;
+  font-size: var(--s-1);
+  padding: var(--s) 0;
+  margin-top: -0.5em;
+  margin-bottom: 0.5em;
+}
+
+.message-modal-card > button {
+  font-family: var(--sans);
+  font-size: var(--s);
+  line-height: var(--s-2);
+  /* border: 1px solid var(--c-primary-l); */
+  border: none;
+  background: linear-gradient(
+    135deg,
+    var(--c-primary) 40%,
+    white 140%
+  );
+  color: white;
+  font-weight: 700;
+}

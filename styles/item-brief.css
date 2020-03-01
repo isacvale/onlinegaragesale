@@ -33,3 +33,10 @@
   margin-right: 1em;
   text-transform: capitalize;
 }
+
+@media (max-width: 1550px) {
+  .item-brief {
+    margin: var(--s-4s);
+  }
+
+}

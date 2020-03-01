@@ -3,6 +3,7 @@
   filter: blur(var(--s-4s));
 }
 
+.message-modal,
 .email-modal,
 .item-modal {
   position: fixed;
@@ -25,6 +26,7 @@
   overflow: auto;
 }
 
+.message-modal-card,
 .email-modal-card,
 .item-modal-card {
   width: 70vmin;

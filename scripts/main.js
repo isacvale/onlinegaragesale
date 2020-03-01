@@ -3,9 +3,29 @@ import raven from '../node_modules/@dvo/raven/raven.mjs'
 import { store, initializeStore } from '../scripts/store.js'
 import setEventListeners from './eventListeners.js'
 
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyByqab3pUMBBPbADRrRQr1P2jHfukorA1s",
+  authDomain: "online-garage-sale.firebaseapp.com",
+  databaseURL: "https://online-garage-sale.firebaseio.com",
+  projectId: "online-garage-sale",
+  storageBucket: "online-garage-sale.appspot.com",
+  messagingSenderId: "963223901590",
+  appId: "1:963223901590:web:01d2c35ba6636e809339b7",
+  measurementId: "G-THGG8ZHWYX"
+}
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig)
+firebase.analytics()
+
+// const inquiries = firebase.database().ref('inquiries')
+const db = firebase.firestore()
+
 window.g = {
   store,
-  raven
+  raven,
+  db
 }
 
 window.onload = () => {

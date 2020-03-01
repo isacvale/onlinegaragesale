@@ -4,7 +4,8 @@ const store = {
   categories: {},
   selectedCategories: [],
   items: [],
-  selectedItems: []
+  selectedItems: [],
+  discartedItems: []
 }
 
 function initializeStore () {
