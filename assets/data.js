@@ -3,10 +3,10 @@ export default [
   {
     type: 'Video-game',
     name: 'Wii U',
-    short: 'A googy goody Netflix player.',
-    long: 'It could play games occasionally.',
+    short: 'Wii U',
+    long: 'O video-game mais hackeável da nintendo.',
     images: ['videogame-wiiu-01.jpeg'],
-    price: 300,
+    price: 950,
     status: null,
     alias: 'wii_u'
   },
@@ -409,7 +409,16 @@ export default [
     alias: '0b_tv_aoc'
   },
 
-
+  {
+    type: 'video-game',
+    name: 'PS3',
+    short: 'Playstation 3',
+    long: 'Videogame com 4 controles (2 funcionam bem)',
+    images: ['tc_ps3.jpg', 'tc_ps31.jpg', 'tc_ps32.jpg'],
+    price: 420,
+    status: null,
+    alias: 'tc_ps3'
+  },
 
 
 
