@@ -1,24 +1,24 @@
 export default [
-  // {
-  //   type: 'CDs',
-  //   name: 'Elvis Presley',
-  //   short: 'A nice CD from the King.',
-  //   long: 'A very nice CD from the King.',
-  //   images: ['cd-elvis-01.jpg'],
-  //   price: 3,
-  //   status: null,
-  //   alias: 'cd_elvis_natal'
-  // },
-  // {
-  //   type: 'Video-game',
-  //   name: 'Wii U',
-  //   short: 'A googy goody Netflix player.',
-  //   long: 'It could play games occasionally.',
-  //   images: ['videogame-wiiu-01.jpeg'],
-  //   price: 300,
-  //   status: null,
-  //   alias: 'wii_u'
-  // },
+  {
+    type: 'CDs',
+    name: 'Elvis Presley',
+    short: 'A nice CD from the King.',
+    long: 'A very nice CD from the King.',
+    images: ['cd-elvis-01.jpg'],
+    price: 3,
+    status: null,
+    alias: 'cd_elvis_natal'
+  },
+  {
+    type: 'Video-game',
+    name: 'Wii U',
+    short: 'A googy goody Netflix player.',
+    long: 'It could play games occasionally.',
+    images: ['videogame-wiiu-01.jpeg'],
+    price: 300,
+    status: null,
+    alias: 'wii_u'
+  },
 
   {
     type: 'livros',
@@ -56,13 +56,13 @@ export default [
 
   {
     type: 'livros infantis',
-    name: 'Combine e Aprenda - números',
+    name: 'Vendido! - Combine e Aprenda - números',
     short: 'Livro infantil com alto-relevos.',
     long: 'Este livrinho desafia as crianças a aprender novas palavras e números de uma forma divertida e única. As ilustrações em relevo se encaixam perfeitamente nas formas correspondentes na página seguinte, auxiliando os bebês e crianças mais novas a descobrir objetos e palavras de uma forma tátil nova. Um jeito perfeito de aprender e enriquecer o vocabulário com a temática: números. ',
     by: 'Yoyo Books',
     images: ['lvi_num.jpg'],
     price: 3,
-    status: null,
+    status: vendido,
     alias:'lv_inf_combine_numeros'
   },
 
@@ -236,12 +236,12 @@ export default [
 
   {
     type: 'brinquedos',
-    name: 'Mesa com cadeira da Barbie',
+    name: 'Vendido! - Mesa com cadeira da Barbie',
     short: 'Mesinha com cadeira infantil',
     long: 'Espaço para armazenamento dentro da mesa (o tampo da mesa é removível). ',
     images: ['in_mesa1.jpg', 'in_mesa.jpg', 'in_mesa2.jpg'],
     price: 30,
-    status: null,
+    status: vendido,
     alias: 'br_mesa_barbie'
   },
 
@@ -267,12 +267,12 @@ export default [
   },
   {
     type: 'infantil',
-    name: 'Carrinho e bebê conforto - Chicco',
+    name: 'Vendido! - Carrinho e bebê conforto - Chicco',
     short: 'Bravo Trio Travel System - Meridian',
     long: 'Carrinho, bebê conforto e keyfit (permite fácil coloção do bebê conforto no banco do carro). Prático e fácil de transportar. Vai desde o nascimento até 22 kg. ',
     images: [''],
-    price: 860,
-    status: null,
+    price: 400,
+    status: vendido,
     alias: 'inf_bravo'
   },
   {
@@ -386,7 +386,7 @@ export default [
   },
 
   {
-    type: 'móveis',
+    type: 'mv_est_tv',
     name: 'Estante',
     short: 'Estante',
     long: 'Estante em meia altura. Serve como aparador mas aconselho usar porta-copos. Medidas: ',
@@ -400,7 +400,7 @@ export default [
     type: 'objetos',
     name: 'Adaga Romana',
     short: 'Cópia de Adaga Romana',
-    long: 'Comprada no park Asterix, França. Em metal. Detalhes inclusive na lâmina. Não afiada.',
+    long: 'Comprada no park Asterix. Em metal. Detalhes inclusive na lâmina. Não afiada.',
     images: ['ob_adaga_rom.jpg', 'ob_adaga_rom1.jpg', 'ob_adaga_rom2.jpg'],
     price: 45,
     status: null,
