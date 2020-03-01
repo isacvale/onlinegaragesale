@@ -1,24 +1,24 @@
 export default [
-  {
-    type: 'CDs',
-    name: 'Elvis Presley',
-    short: 'A nice CD from the King.',
-    long: 'A very nice CD from the King.',
-    images: ['cd-elvis-01.jpg'],
-    price: 3,
-    status: null,
-    alias: 'cd_elvis_natal'
-  },
-  {
-    type: 'Video-game',
-    name: 'Wii U',
-    short: 'A googy goody Netflix player.',
-    long: 'It could play games occasionally.',
-    images: ['videogame-wiiu-01.jpeg'],
-    price: 300,
-    status: null,
-    alias: 'wii_u'
-  },
+  // {
+  //   type: 'CDs',
+  //   name: 'Elvis Presley',
+  //   short: 'A nice CD from the King.',
+  //   long: 'A very nice CD from the King.',
+  //   images: ['cd-elvis-01.jpg'],
+  //   price: 3,
+  //   status: null,
+  //   alias: 'cd_elvis_natal'
+  // },
+  // {
+  //   type: 'Video-game',
+  //   name: 'Wii U',
+  //   short: 'A googy goody Netflix player.',
+  //   long: 'It could play games occasionally.',
+  //   images: ['videogame-wiiu-01.jpeg'],
+  //   price: 300,
+  //   status: null,
+  //   alias: 'wii_u'
+  // },
 
   {
     type: 'livros',
@@ -386,7 +386,7 @@ export default [
   },
 
   {
-    type: 'mv_est_tv',
+    type: 'móveis',
     name: 'Estante',
     short: 'Estante',
     long: 'Estante em meia altura. Serve como aparador mas aconselho usar porta-copos. Medidas: ',
@@ -400,7 +400,7 @@ export default [
     type: 'objetos',
     name: 'Adaga Romana',
     short: 'Cópia de Adaga Romana',
-    long: 'Comprada no park Asterix. Em metal. Detalhes inclusive na lâmina. Não afiada.',
+    long: 'Comprada no park Asterix, França. Em metal. Detalhes inclusive na lâmina. Não afiada.',
     images: ['ob_adaga_rom.jpg', 'ob_adaga_rom1.jpg', 'ob_adaga_rom2.jpg'],
     price: 45,
     status: null,
