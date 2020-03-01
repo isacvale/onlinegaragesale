@@ -70,13 +70,13 @@ export default [
 
   {
     type: 'livros',
-    name: 'Fotografia Digital',
+    name: 'Vendido! - Fotografia Digital',
     short: 'Dicas e truques para tirar as melhores fotos',
     long: 'Livro sobre fotografia que aborda como escolher a melhor câmera, técnicas de enquadramento de imagem e iluminação, etc...',
     by: 'Gold Editora',
     images: ['lv_fotdig.jpg', 'lv_fotdig1.jpg'],
     price: 10,
-    status: null,
+    status: 'vendido',
     alias: 'lv_fotog_digital'
   },
 
@@ -279,12 +279,12 @@ export default [
   },
   {
     type: 'livros',
-    name: 'Jardinagem Perfeita',
+    name: 'Vendido! - Jardinagem Perfeita',
     short: 'Jardinagem Perfeita em até 30 minutos',
     long: 'Ideias criativas para vasos, canteiros e jardins e mais de 80 projetos práticos e rápidos. Livro em perfeito estado.',
     images: ['lv_jard_perf.jpeg', 'lv_jard_perf1.jpeg'],
     price: 30,
-    status: null,
+    status: 'vendido',
     alias: 'lv_jardin_perfeita'
   },
   {
