@@ -62,7 +62,7 @@ export default [
     by: 'Yoyo Books',
     images: ['lvi_num.jpg'],
     price: 3,
-    status: vendido,
+    status: 'vendido',
     alias:'lv_inf_combine_numeros'
   },
 
@@ -241,7 +241,7 @@ export default [
     long: 'Espaço para armazenamento dentro da mesa (o tampo da mesa é removível). ',
     images: ['in_mesa1.jpg', 'in_mesa.jpg', 'in_mesa2.jpg'],
     price: 30,
-    status: vendido,
+    status: 'vendido',
     alias: 'br_mesa_barbie'
   },
 
@@ -272,7 +272,7 @@ export default [
     long: 'Carrinho, bebê conforto e keyfit (permite fácil coloção do bebê conforto no banco do carro). Prático e fácil de transportar. Vai desde o nascimento até 22 kg. ',
     images: [''],
     price: 400,
-    status: vendido,
+    status: 'vendido',
     alias: 'inf_bravo'
   },
   {
