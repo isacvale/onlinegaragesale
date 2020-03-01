@@ -1,19 +1,19 @@
 export default [
-  // {
-  //   type: 'CDs',
-  //   name: 'Elvis Presley',
-  //   short: 'A nice CD from the King.',
-  //   long: 'A very nice CD from the King.',
-  //   images: ['cd-elvis-01.jpg'],
-  //   price: 3,
-  //   status: null,
-  //   alias: 'cd_elvis_natal'
-  // },
+  {
+    type: 'CDs',
+    name: 'Elvis Presley',
+    short: 'A nice CD from the King.',
+    long: 'A very nice CD from the King.',
+    images: ['cd-elvis-01.jpg'],
+    price: 3,
+    status: null,
+    alias: 'cd_elvis_natal'
+  },
   {
     type: 'Video-game',
     name: 'Wii U',
-    short: 'Video game da Nintendo em ótimo estado.',
-    long: 'Excelente estado, exceto pela falta do suporte para deixá-lo na vertical.',
+    short: 'A googy goody Netflix player.',
+    long: 'It could play games occasionally.',
     images: ['videogame-wiiu-01.jpeg'],
     price: 300,
     status: null,
@@ -307,17 +307,72 @@ export default [
     alias: 'bl_b_d_neve'
   },
 
-  // {
-  //   type: 'brinquedos',
-  //   name: 'Mesa com cadeira da Barbie',
-  //   short: 'Mesinha com cadeira infantil',
-  //   long: 'Espaço para armazenamento dentro da mesa (o tampo da mesa é removível). ',
-  //   images: [''],
-  //   price: 30,
-  //   status: null,
-  //   alias: 'br_mesa_barbie'
-  // },
+  {
+    type: 'livros',
+    name: 'Cidade de Ladrões',
+    short: 'Cidade de Ladrões',
+    long: 'Romance ambientado em Leningrado durante Segunda Guerra Mundial. Ótimo estado.',
+    by: 'Benioff, David',
+    images: ['lv_cid_lad.jpg'],
+    price: 7,
+    status: null,
+    alias: 'lv_cid_lad'
+  },
 
+  {
+    type: 'infantil',
+    name: 'Almofadas',
+    short: 'Almofadas Mickey e Minnie',
+    long: 'Duas almofadas com formas abstraídas do Mickey e da Minnie. Compradas na Riachuelo.',
+    images: ['in_alm_disney.jpg', 'in_alm_disney1.jpg'],
+    price: 15,
+    status: null,
+    alias: 'in_alm_disney'
+  },
+
+  {
+    type: 'brinquedos',
+    name: 'Árvore interativa',
+    short: 'Brinquedo em forma de árvore da fisher price',
+    long: 'Estimula a criança a puxar, empurrar e rodar diferente mecanismos ajudando no desenvolvimento da coordenação motora fina. Em bom estado.',
+    images: ['br_fp_arvore.jpg'],
+    price: 10,
+    status: null,
+    alias: 'br_fp_arvore'
+  },
+
+  {
+    type: 'móveis',
+    name: 'Estante pequena',
+    short: 'Estante pequena',
+    long: 'Era usada como criado mudo. Medidas: ',
+    images: ['mo_est_peq_d.jpg', 'mo_est_peq_d1.jpg', 'mo_est_peq_d2'],
+    price: 20,
+    status: null,
+    alias: 'mo_est_peq_d'
+  },
+
+  {
+    type: 'móveis',
+    name: 'Estante pequena',
+    short: 'Estante pequena',
+    long: 'Era usada como criado mudo. Medidas: ',
+    images: ['mo_est_peq_e.jpg', 'mo_est_peq_e1.jpg', 'mo_est_peq_e2'],
+    price: 15,
+    status: null,
+    alias: 'mo_est_peq_e'
+  },
+
+  {
+    type: 'objetos',
+    name: 'Teclado USB',
+    short: 'Teclado USB',
+    long: 'Fechado ainda. Comprado como reserva quando ainda usávamos desktop.',
+    images: ['tc_teclado_usb.jpg', 'tc_teclado_usb1.jpg'],
+    price: 10,
+    status: null,
+    alias: 'tc_teclado_usb'
+  },
 
 
 
