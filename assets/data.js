@@ -347,7 +347,7 @@ export default [
     short: 'Estante pequena',
     long: 'Era usada como criado mudo. Medidas: ',
     images: ['mo_est_peq_d.jpg', 'mo_est_peq_d1.jpg', 'mo_est_peq_d2'],
-    price: 20,
+    price: 30,
     status: null,
     alias: 'mo_est_peq_d'
   },
@@ -358,7 +358,7 @@ export default [
     short: 'Estante pequena',
     long: 'Era usada como criado mudo. Medidas: ',
     images: ['mo_est_peq_e.jpg', 'mo_est_peq_e1.jpg', 'mo_est_peq_e2'],
-    price: 15,
+    price: 20,
     status: null,
     alias: 'mo_est_peq_e'
   },
@@ -373,6 +373,54 @@ export default [
     status: null,
     alias: 'tc_teclado_usb'
   },
+
+  {
+    type: 'móveis',
+    name: 'Cômoda',
+    short: 'Cômoda',
+    long: 'Usada. Gavetas em bom estado. Medidas: ',
+    images: ['mv_comoda.jpg', 'mv_comoda1.jpg', 'mv_comoda2.jpg', 'mv_comoda3.jpg', 'mv_comoda4.jpg'],
+    price: 120,
+    status: null,
+    alias: 'mv_comoda'
+  },
+
+  {
+    type: 'mv_est_tv',
+    name: 'Estante',
+    short: 'Estante',
+    long: 'Estante em meia altura. Serve como aparador mas aconselho usar porta-copos. Medidas: ',
+    images: ['mv_est_tv.jpg', 'mv_est_tv1.jpg', 'mv_est_tv2.jpg'],
+    price: 80,
+    status: null,
+    alias: 'mv_est_tv'
+  },
+
+  {
+    type: 'objetos',
+    name: 'Adaga Romana',
+    short: 'Cópia de Adaga Romana',
+    long: 'Comprada no park Asterix. Em metal. Detalhes inclusive na lâmina. Não afiada.',
+    images: ['ob_adaga_rom.jpg', 'ob_adaga_rom1.jpg', 'ob_adaga_rom2.jpg'],
+    price: 45,
+    status: null,
+    alias: 'ob_adaga_rom'
+  },
+
+  {
+    type: 'objetos',
+    name: 'TV AOC',
+    short: 'TV 42 polegadas da AOC ',
+    long: 'TV LCD da AOC. Funciona bem. Vai com o suporte para colocar na parede. Tem pouco mais de 10 anos. ',
+    images: ['ob_tv_aoc.jpg', 'ob_tv_aoc1.jpg', 'ob_tv_aoc2.jpg', 'ob_tv_aoc3.jpg', 'ob_tv_aoc4.jpg', 'ob_tv_aoc5.jpg'],
+    price: 420,
+    status: null,
+    alias: '0b_tv_aoc'
+  },
+
+
+
+
 
 
 
