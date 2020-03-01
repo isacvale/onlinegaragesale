@@ -1,19 +1,19 @@
 export default [
-  {
-    type: 'CDs',
-    name: 'Elvis Presley',
-    short: 'A nice CD from the King.',
-    long: 'A very nice CD from the King.',
-    images: ['cd-elvis-01.jpg'],
-    price: 3,
-    status: null,
-    alias: 'cd_elvis_natal'
-  },
+  // {
+  //   type: 'CDs',
+  //   name: 'Elvis Presley',
+  //   short: 'A nice CD from the King.',
+  //   long: 'A very nice CD from the King.',
+  //   images: ['cd-elvis-01.jpg'],
+  //   price: 3,
+  //   status: null,
+  //   alias: 'cd_elvis_natal'
+  // },
   {
     type: 'Video-game',
     name: 'Wii U',
-    short: 'A googy goody Netflix player.',
-    long: 'It could play games occasionally.',
+    short: 'Video game da Nintendo em ótimo estado.',
+    long: 'Excelente estado, exceto pela falta do suporte para deixá-lo na vertical.',
     images: ['videogame-wiiu-01.jpeg'],
     price: 300,
     status: null,
