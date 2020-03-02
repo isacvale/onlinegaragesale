@@ -1,4 +1,6 @@
 import Stamp from '../node_modules/@dvo/stamp/lib/stamp.js'
+import { getClickedTarget } from './utils.js'
+
 
 function createEmailModal () {
   Stamp('#tpl-email-modal')
@@ -31,16 +33,13 @@ function setUpItems (alias) {
             .textContent = `$${item.price}`
           el.querySelector('.email-modal-image')
             .setAttribute('src', `./assets/pics/${item.images[0]}`)
-          console.log('before', el)
         })
-        // .execute(obj => console.log('item', obj))
-        .stamp(el => console.log('item', el, el.parentElement))
+        .stamp()
     })
 }
 
 function setUpItem (alias) {
   const item = window.g.store.items.find(item => item.alias == alias)
-  console.log('item:', alias, item, item && item.images)
   
   Stamp('modalItem')
     .change(el => {
@@ -62,7 +61,8 @@ const getTotalPrice = () => {
   }
 
 function evClickOutside (ev) {
-  if (ev.path[0].classList.contains('email-modal'))
+  if (getClickedTarget(ev, 'email-modal'))
+  // if (ev.path[0].classList.contains('email-modal'))
     closeModal()
 }
 

@@ -107,5 +107,6 @@
 
 .email-modal-card {
   padding-bottom: var(--s-2);
-  height: fit-content;
+  height: max-content;
+  height: fit-content(100%);
 }

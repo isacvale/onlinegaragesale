@@ -30,8 +30,9 @@
 .email-modal-card,
 .item-modal-card {
   width: 70vmin;
-  height: 70vmin;
-  min-height: fit-content;
+  /* height: 70vmin; */
+  min-height: max-content;
+  min-height: fit-content(100%);
   background: white;
   display: flex;
   flex-direction: column;
@@ -47,7 +48,8 @@
 
 .item-modal-image {
   width: 100%;
-  height: calc( 100% - var(--s-3));
+  height: 100%;
+  max-height: calc( 50vmin - var(--s-3));
   flex: 1;
   object-fit: contain;
   background: linear-gradient(135deg, var(--c-primary-l) 60%, white 200%);

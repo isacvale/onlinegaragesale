@@ -8,7 +8,9 @@
   color: white;
   flex-basis: 25%;
   padding: var(--s-1);
-  min-height: fit-content;
+  min-height: max-content;
+  min-height: fit-content(100%);
+  /* min-height: fit-content; */
   display: flex;
   flex-direction: column;
 }
