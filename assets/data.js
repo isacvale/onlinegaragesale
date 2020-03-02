@@ -5,7 +5,7 @@ export default [
     name: 'Vendido! - Wii U',
     short: 'Wii U',
     long: 'O video-game mais hackeável da nintendo.',
-    images: ['vg_wiiu1.jpg', 'vg_wiiu2.jpg', 'vg_wiiu','vg_wiiu3'],
+    images: ['vg_wiiu1.jpg', 'vg_wiiu2.jpg', 'vg_wiiu.jpg','vg_wiiu3.jpg'],
     price: 480,
     status: 'vendido',
     alias: 'wii_u'
@@ -337,7 +337,7 @@ export default [
     name: 'Estante pequena',
     short: 'Estante pequena',
     long: 'Era usada como criado mudo. Medidas: ',
-    images: ['mo_est_peq_d.jpg', 'mo_est_peq_d1.jpg', 'mo_est_peq_d2'],
+    images: ['mo_est_peq_d.jpg', 'mo_est_peq_d1.jpg', 'mo_est_peq_d2.jpg'],
     price: 30,
     status: null,
     alias: 'mo_est_peq_d'
@@ -348,7 +348,7 @@ export default [
     name: 'Estante pequena',
     short: 'Estante pequena',
     long: 'Era usada como criado mudo. Medidas: ',
-    images: ['mo_est_peq_e.jpg', 'mo_est_peq_e1.jpg', 'mo_est_peq_e2'],
+    images: ['mo_est_peq_e.jpg', 'mo_est_peq_e1.jpg', 'mo_est_peq_e2.jpg'],
     price: 20,
     status: null,
     alias: 'mo_est_peq_e'
@@ -499,7 +499,7 @@ export default [
     name: 'Cinema Samurai',
     short: 'Cinema Samurai',
     long: 'Coleção com 6 clássicos filmes de samurai.',
-    images: ['dvd_cinemasamurai.jpg', 'dvd_cinemasamurai1'],
+    images: ['dvd_cinemasamurai.jpg', 'dvd_cinemasamurai1.jpg'],
     price: 25,
     status: null,
     alias: 'cinemasamurai'
@@ -509,7 +509,7 @@ export default [
     name: 'Dumbo',
     short: 'Dumbo',
     long: 'Dvd edição especial de Aniversário do Dumbo.',
-    images: ['dvd_bela_adormecida.jpeg'],
+    images: ['dvd_dumbo.jpeg'],
     price: 5,
     status: null,
     alias: 'dumbo'
@@ -680,10 +680,10 @@ export default [
     name: 'Guitar Hero III - Legends of Rock',
     short: 'Guitar Hero III - Legends of Rock',
     long: 'Jogo de Wii.',
-    images: ['wii_jogo_gh_ghiii.jpg'],
+    images: ['wii_jogo_ghiii.jpg'],
     price: 15,
     status: null,
-    alias: 'wii_ghiii'
+    alias: 'wii_gh_legend_rock'
   },
   {
     type: 'Video-games',

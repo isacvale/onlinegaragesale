@@ -71,7 +71,6 @@ function loadItems () {
 
   // Set category button appearance
   Array.from(document.querySelectorAll('.menu-item')).forEach(menuItem => {
-    console.log('xxx', window.g.store.selectedCategories, menuItem.textContent)
     window.g.store.selectedCategories.includes(menuItem.getAttribute('data-category'))
       ? menuItem.classList.add('_selected')
       : menuItem.classList.remove('_selected')
@@ -124,6 +123,7 @@ function updateItemsInCart () {
     .clear()
   const selectedItems = window.g.store.selectedItems
     .map(alias => window.g.store.items.find(item => item.alias == alias))
+    .filter(Boolean)
 
   // Update items in cart
   selectedItems.forEach(item => {

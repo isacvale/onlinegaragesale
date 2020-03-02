@@ -1,6 +1,9 @@
 import Stamp from '../node_modules/@dvo/stamp/lib/stamp.js'
 import raven from '../node_modules/@dvo/raven/raven.mjs'
 
+import { getClickedTarget } from './utils.js'
+
+
 function createItemModal (alias) {
   // Stamp the modal
   const item = window.g.store.items
@@ -45,17 +48,17 @@ function checkItemButtons (alias, el=document) {
 }
 
 function evClickOutside (ev) {
-  if (ev.path[0].classList.contains('item-modal'))
+  // if (ev.path[0].classList.contains('item-modal'))
+  if (getClickedTarget(ev, 'item-modal'))
     closeModal()
 }
 
 function evActivateThumbnail (ev) {
-  const target = ev.path.find(el =>
-     el.classList.contains('item-modal-carousel-pic-wrapper'))
+  const target = getClickedTarget(ev, 'item-modal-carousel-pic')
      
   if (target) {
     document.querySelector('.item-modal-image')
-      .setAttribute('src', `./assets/pics/${target.getAttribute('data-image')}`)
+      .setAttribute('src', `./assets/pics/${target.parentElement.getAttribute('data-image')}`)
   }
 }
 
@@ -80,12 +83,16 @@ function stampThumbnails (item) {
 }
 
 const onAddItem = ev => {
-  const alias = ev.path[0].getAttribute('data-alias')
+  const btn = getClickedTarget(ev, 'item-modal-button-acrescentar')
+  const alias = btn.getAttribute('data-alias')
+  // const alias = ev.path[0].getAttribute('data-alias')
   raven.set({ selectedItems: [...window.g.store.selectedItems, alias]})
   checkItemButtons(alias)
 }
 const onRemoveItem = ev => {
-  const alias = ev.path[0].getAttribute('data-alias')
+  const btn = getClickedTarget(ev, 'item-modal-button-retirar')
+  const alias = btn.getAttribute('data-alias')
+  // const alias = ev.path[0].getAttribute('data-alias')
   raven.set({ selectedItems:
     window.g.store.selectedItems.filter(item => item != alias)
   })
