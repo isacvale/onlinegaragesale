@@ -2,12 +2,12 @@ export default [
 
   {
     type: 'Video-game',
-    name: 'Wii U',
+    name: 'Vendido! - Wii U',
     short: 'Wii U',
     long: 'O video-game mais hackeável da nintendo.',
     images: ['vg_wiiu1.jpg', 'vg_wiiu2.jpg', 'vg_wiiu','vg_wiiu3'],
     price: 480,
-    status: null,
+    status: 'vendido',
     alias: 'wii_u'
   },
 
@@ -205,12 +205,12 @@ export default [
 
   {
     type: 'brinquedos',
-    name: 'Carrinho de Bonecas',
+    name: 'Vendido! - Carrinho de Bonecas',
     short: 'Carrinho de Bonecas - Baby Alive',
     long: 'Este carrinho é perfeito para a criança brincar de nanar e passear com o bebê. Com capota regulável, enquanto brincam desenvolvem a coordenação motora muito importante na fase de crescimento. O carrinho ainda conta com haste para a criança empurrar, com design robusto e material leve facilita o transportamento do carrinho com a boneca. Dimensões aproximadas do carrinho (altura x largura x comprimento): 64 x 31 x 44 cm',
     images: ['br_carboneca.jpg', 'br_carboneca1.jpg'],
     price: 30,
-    status: null,
+    status: 'vendido',
     alias: 'br_carr_bonecas'
   },
 
@@ -323,12 +323,12 @@ export default [
 
   {
     type: 'brinquedos',
-    name: 'Árvore interativa',
+    name: 'Vendido! - Árvore interativa',
     short: 'Brinquedo em forma de árvore da fisher price',
     long: 'Estimula a criança a puxar, empurrar e rodar diferente mecanismos ajudando no desenvolvimento da coordenação motora fina. Em bom estado.',
     images: ['br_fp_arvore.jpg'],
     price: 10,
-    status: null,
+    status: 'vendido',
     alias: 'br_fp_arvore'
   },
 
@@ -383,7 +383,7 @@ export default [
     long: 'Estante em meia altura. Serve como aparador mas aconselho usar porta-copos. Medidas: ',
     images: ['mv_est_tv.jpg', 'mv_est_tv1.jpg', 'mv_est_tv2.jpg'],
     price: 80,
-    status: null,
+    status: 'vendido',
     alias: 'mv_est_tv'
   },
 
@@ -405,7 +405,7 @@ export default [
     long: 'TV LCD da AOC. Funciona bem. Vai com o suporte para colocar na parede. Tem pouco mais de 10 anos. ',
     images: ['ob_tv_aoc.jpg', 'ob_tv_aoc1.jpg', 'ob_tv_aoc2.jpg', 'ob_tv_aoc3.jpg', 'ob_tv_aoc4.jpg', 'ob_tv_aoc5.jpg'],
     price: 270,
-    status: null,
+    status: 'vendido',
     alias: '0b_tv_aoc'
   },
 
@@ -420,14 +420,14 @@ export default [
     alias: 'tc_ps3'
   },
   {
-    type: 'livros infantis',
+    type: 'Vendido! - livros infantis',
     name: 'O desfile dos animais',
     short: 'O desfile dos animais',
     long: 'Este livro com alto-relevo, repleto de animais coloridos e formas variadas, incentiva os pequeninos a explorar cada página com suas mãozinhas curiosas. Uma maneira lúdica de entreter e ensinar as crianças. Idade indicada: a partir de 1 ano.',
     by: 'Ciranda Cultural',
     images: ['lvi_desf.jpg'],
     price: 3,
-    status: null,
+    status: 'vendido',
     alias: 'lvi_desf'
   },
 
