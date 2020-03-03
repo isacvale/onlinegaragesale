@@ -420,7 +420,7 @@ export default [
     alias: 'tc_ps3'
   },
   {
-    type: 'Vendido! - livros infantis',
+    type: 'livros infantis',
     name: 'O desfile dos animais',
     short: 'O desfile dos animais',
     long: 'Este livro com alto-relevo, repleto de animais coloridos e formas variadas, incentiva os pequeninos a explorar cada página com suas mãozinhas curiosas. Uma maneira lúdica de entreter e ensinar as crianças. Idade indicada: a partir de 1 ano.',
@@ -438,7 +438,7 @@ export default [
     long: 'Berço portátil burigotto rosa com colchão.',
     images: ['berco.jpeg', 'berco1.jpeg'],
     price: 250,
-    status: null,
+    status: 'vendido',
     alias: 'berco_bur'
   },
 
