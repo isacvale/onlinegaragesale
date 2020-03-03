@@ -1,7 +1,7 @@
 export default [
 
   {
-    type: 'Video-game',
+    type: 'Video-games',
     name: 'Wii U',
     short: 'Wii U',
     long: 'O video-game mais hackeável da nintendo.',
@@ -410,7 +410,7 @@ export default [
   },
 
   {
-    type: 'Video-game',
+    type: 'Video-games',
     name: 'PS3',
     short: 'Playstation 3',
     long: 'Videogame com 4 controles (2 funcionam bem)',
