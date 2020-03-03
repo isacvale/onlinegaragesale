@@ -2,7 +2,7 @@ export default [
 
   {
     type: 'Video-game',
-    name: 'Vendido! - Wii U',
+    name: 'Wii U',
     short: 'Wii U',
     long: 'O video-game mais hackeável da nintendo.',
     images: ['vg_wiiu1.jpg', 'vg_wiiu2.jpg', 'vg_wiiu.jpg','vg_wiiu3.jpg'],
@@ -47,7 +47,7 @@ export default [
 
   {
     type: 'livros infantis',
-    name: 'Vendido! - Combine e Aprenda - números',
+    name: 'Combine e Aprenda - números',
     short: 'Livro infantil com alto-relevos.',
     long: 'Este livrinho desafia as crianças a aprender novas palavras e números de uma forma divertida e única. As ilustrações em relevo se encaixam perfeitamente nas formas correspondentes na página seguinte, auxiliando os bebês e crianças mais novas a descobrir objetos e palavras de uma forma tátil nova. Um jeito perfeito de aprender e enriquecer o vocabulário com a temática: números. ',
     by: 'Yoyo Books',
@@ -70,7 +70,7 @@ export default [
 
   {
     type: 'livros',
-    name: 'Vendido! - Fotografia Digital',
+    name: 'Fotografia Digital',
     short: 'Dicas e truques para tirar as melhores fotos',
     long: 'Livro sobre fotografia que aborda como escolher a melhor câmera, técnicas de enquadramento de imagem e iluminação, etc...',
     by: 'Gold Editora',
@@ -172,7 +172,7 @@ export default [
 
   {
     type: 'esportes',
-    name: 'Vendida! - Caloi Snake',
+    name: 'Caloi Snake',
     short: 'Bicicleta caloi snake',
     long: 'Bicicleta caloi snake em bom estado. Vendida com cadeado com senha (dessa eu ainda me lembro!) e bolsinha no banco para pequenos objetos.',
     images: ['es_snake.jpg'],
@@ -183,7 +183,7 @@ export default [
 
   {
     type: 'esportes',
-    name: 'Vendida! - Caloi Aspen',
+    name: 'Caloi Aspen',
     short: 'Bicicleta caloi aspen',
     long: 'Bicicleta caloi aspen usada. Precisa trocar as rodas. Fora isso, bom estado. Tem cadeado com senha que vai junto mas a senha foi esquecida. Não cobramos extra pelo desafio.',
     images: ['es_aspen.jpg'],
@@ -205,7 +205,7 @@ export default [
 
   {
     type: 'brinquedos',
-    name: 'Vendido! - Carrinho de Bonecas',
+    name: 'Carrinho de Bonecas',
     short: 'Carrinho de Bonecas - Baby Alive',
     long: 'Este carrinho é perfeito para a criança brincar de nanar e passear com o bebê. Com capota regulável, enquanto brincam desenvolvem a coordenação motora muito importante na fase de crescimento. O carrinho ainda conta com haste para a criança empurrar, com design robusto e material leve facilita o transportamento do carrinho com a boneca. Dimensões aproximadas do carrinho (altura x largura x comprimento): 64 x 31 x 44 cm',
     images: ['br_carboneca.jpg', 'br_carboneca1.jpg'],
@@ -227,7 +227,7 @@ export default [
 
   {
     type: 'brinquedos',
-    name: 'Vendido! - Mesa com cadeira da Barbie',
+    name: 'Mesa com cadeira da Barbie',
     short: 'Mesinha com cadeira infantil',
     long: 'Espaço para armazenamento dentro da mesa (o tampo da mesa é removível). ',
     images: ['in_mesa1.jpg', 'in_mesa.jpg', 'in_mesa2.jpg'],
@@ -258,7 +258,7 @@ export default [
   },
   {
     type: 'infantil',
-    name: 'Vendido! - Carrinho e bebê conforto - Chicco',
+    name: 'Carrinho e bebê conforto - Chicco',
     short: 'Bravo Trio Travel System - Meridian',
     long: 'Carrinho, bebê conforto e keyfit (permite fácil coloção do bebê conforto no banco do carro). Prático e fácil de transportar. Vai desde o nascimento até 22 kg. ',
     images: [''],
@@ -279,7 +279,7 @@ export default [
   },
   {
     type: 'livros',
-    name: 'Vendido! - Jardinagem Perfeita',
+    name: 'Jardinagem Perfeita',
     short: 'Jardinagem Perfeita em até 30 minutos',
     long: 'Ideias criativas para vasos, canteiros e jardins e mais de 80 projetos práticos e rápidos. Livro em perfeito estado.',
     images: ['lv_jard_perf.jpeg', 'lv_jard_perf1.jpeg'],
@@ -323,7 +323,7 @@ export default [
 
   {
     type: 'brinquedos',
-    name: 'Vendido! - Árvore interativa',
+    name: 'Árvore interativa',
     short: 'Brinquedo em forma de árvore da fisher price',
     long: 'Estimula a criança a puxar, empurrar e rodar diferente mecanismos ajudando no desenvolvimento da coordenação motora fina. Em bom estado.',
     images: ['br_fp_arvore.jpg'],
