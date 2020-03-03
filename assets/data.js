@@ -350,7 +350,7 @@ export default [
     long: 'Era usada como criado mudo. Medidas: ',
     images: ['mo_est_peq_e.jpg', 'mo_est_peq_e1.jpg', 'mo_est_peq_e2.jpg'],
     price: 20,
-    status: null,
+    status: 'vendido',
     alias: 'mo_est_peq_e'
   },
 
