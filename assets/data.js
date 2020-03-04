@@ -98,7 +98,7 @@ export default [
     long: 'Triciclo rosa e verde em ótimo estado.',
     images: ['br_ticotico.jpg'],
     price: 20,
-    status: null,
+    status: 'vendido',
     alias: 'br_tico_tico'
   },
 
@@ -166,7 +166,7 @@ export default [
     long: 'Rede para Voley da marca JMC nova.',
     images: ['es_redevol.jpg'],
     price: 30,
-    status: null,
+    status: 'vendido',
     alias: 'es_rede_voley'
   },
 
@@ -199,7 +199,7 @@ export default [
     long: 'Bola para pilates da oxer em bom estado.',
     images: ['es_pilates.jpg'],
     price: 10,
-    status: null,
+    status: 'vendido',
     alias: 'es_pilates'
   },
 
