@@ -772,13 +772,182 @@ export default [
     short: 'Uma nova versão dos jogos clássicos de Mario, com tudo o que tinham de bom, e mais!',
     long: 'Jogo de WiiU.',
     images: ['wiiu_jogo_smb.jpg'],
-    price: 50,
+    price: 45,
     status: null,
     alias: 'supermariobross_u'
   },
 
+  {
+    type: 'Jogos de Tabuleiro',
+    name: 'Betrayal at House on the Hill',
+    short: 'A Strategy Game by Bruce Glassco',
+    long: 'Neste jogo você e seus amigos exploram “aquele lugar velho assustador na colina. Projetado para 3 a 6 jogadores com 12 anos ou mais. Apresenta vários cenários um layout diferente de outros jogos. Calafrios suficientes para congelar o coração de qualquer fã de terror.',
+    images: ['betr.jpg', 'betr1.jpg', 'betr2.jpg', 'betr3.jpg', 'betr4.jpg'],
+    price: 35,
+    status: null,
+    alias: 'jt_betrayal_hill'
+  },
 
+  {
+    type: 'Jogos de Tabuleiro',
+    name: 'Carcassone - Bazers, ponts et forteresses',
+    short: 'Expansão para o jogo \"Carcassonne\"',
+    long: 'Complementa o jogo Carcassonne. Manual em francês. Precisa do jogo original para ser jogado.',
+    images: ['carc_bazars.jpg', 'carc_bazars1.jpg'],
+    price: 50,
+    status: null,
+    alias: 'carcassonne_exp_pontes'
+  },
 
+  {
+    type: 'Jogos de Tabuleiro',
+    name: 'Carcassone - Posadas y Catedrales',
+    short: 'Expansão para o jogo \"Carcassonne\"',
+    long: 'Complementa o jogo Carcassonne.  Precisa do jogo original para ser jogado.',
+    images: ['carc_cat.jpg', 'carc_cat1.jpg'],
+    price: 30,
+    status: null,
+    alias: 'carcassonne_exp_catedrais'
+  },
 
+  {
+    type: 'Jogos de Tabuleiro',
+    name: 'Carcassone - Constructores y Comerciantes',
+    short: 'Expansão para o jogo \"Carcassonne\"',
+    long: 'Complementa o jogo Carcassonne. Precisa do jogo original para ser jogado.',
+    images: ['carc_const.jpg', 'carc_const1.jpg'],
+    price: 30,
+    status: null,
+    alias: 'carcassonne_exp_construtores'
+  },
+
+  {
+    type: 'Jogos de Tabuleiro',
+    name: 'Domínio de Carcassonne',
+    short: 'Jogo de Tabuleiro.',
+    long: 'Construa cidades, estradas monastérios e campos e conquiste mais pontos no final da partida. O tabuleiro é construído a cada jogada. O melhor jogo de tabuleiro para iniciantes e um dos mais divertidos para todos.',
+    images: ['carcassonne.jpg', 'carcassonne1.jpg', 'carcassonne2.jpg'],
+    price: 40,
+    status: null,
+    alias: 'carcassonne_original'
+  },
+
+  {
+    type: 'Jogos de Tabuleiro',
+    name: 'Colonizadores de Catan',
+    short: 'Jogo de Tabuleiro',
+    long: 'Uma disputa por terra, matéria-prima e poder em uma ilha onde só um pode ter a soberania. A partir de 10 anos. Outro jogo de tabuleiro clássico e muito divertido.',
+    images: ['catan.jpg', 'catan1.jpg', 'catan2.jpg'],
+    price: 40,
+    status: null,
+    alias: 'catan'
+  },
+  {
+    type: 'Jogos de Tabuleiro',
+    name: 'Creationary',
+    short: 'Jogo de cartas e lego',
+    long: 'Construa e outros adivinham. Vem com legos mas, quanto mais peças você tiver, mais divertido fica.',
+    images: ['creat.jpg', 'creat1.jpg', 'creat2.jpg', 'creat3.jpg', 'creat4.jpg'],
+    price: 55,
+    status: null,
+    alias: 'creationary'
+  },
+
+  {
+    type: 'móveis',
+    name: 'Estante alta',
+    short: 'Estante alta',
+    long: 'Estante com rodinhas, com profundidade maior do que para apenas livros e que não ocupa muito espaço de solo. Já usamos para brinquedos, roupa de banho e cama, caixas com ferramentas, etc... ',
+    images: ['est_alta_branca.jpg', 'est_alta_branca1.jpg', 'est_alta_branca2.jpg', 'est_alta_branca3.jpg'],
+    price: 80,
+    status: null,
+    alias: 'estante_alta_branca'
+  },
+
+  {
+    type: 'móveis',
+    name: 'Armário pequeno',
+    short: 'Basicamente uma estante com porta',
+    long: 'Não ocupa muito espaço em planta. Tem rodinhas para facilitar a limpeza. Originalmente usado na despensa mas, recentemente, usado para guardar brinquedos. Não cobramos extra pelos adesivos (que podem ser removidos sem danos ao móvel e ainda têm um pouco de cola).',
+    images: ['est_porta.jpg', 'est_porta1.jpg', 'est_porta2.jpg', 'est_porta3.jpg', 'est_porta4.jpg'],
+    price: 60,
+    status: null,
+    alias: 'estante_porta_adesivos'
+  },
+
+  {
+    type: 'Jogos de Tabuleiro',
+    name: 'Fantasy',
+    short: 'Jogo de Cartas',
+    long: 'Imaginez un petit bois touffu et caché des jumains, rempli de farfadets, de korrigans et de lutins. Un jour, ces abracadabrantes peuplades décrètent qu\'il leur faut un chef. Les candidats viennent autour d\'une table et dans un grand fracas magique tous essaient d\'attirer les suffrages! Vem com 56 cartas e um livro de regras em francês.',
+    images: ['fantasy.jpg', 'fantasy1.jpg', 'fantasy2.jpg'],
+    price: 5,
+    status: null,
+    alias: 'fantasy_jogo'
+  },
+  {
+    type: 'Jogos de Tabuleiro',
+    name: 'Hanabi',
+    short: 'Jogo colaborativo sobre fogos de artifício',
+    long: 'Corra contra o relógio, construa os fotos de artifício e lance os foguetes!',
+    images: ['Hanabi.jpg', 'Hanabi1.jpg', 'Hanabi2.jpg', 'Hanabi3.jpg'],
+    price: 15,
+    status: null,
+    alias: 'hanabi_jogo'
+  },
+
+  {
+    type: 'móveis',
+    name: 'Mesa / Escrivaninha',
+    short: 'Estrutura em metal e tampo de vidro',
+    long: 'Comprada na Tok Stok. Coloque uma luminária embaixo e se torna uma mesa de luz perfeita. ',
+    images: ['mesa_vidro.jpg', 'mesa_vidro1.jpg', 'mesa_vidro2.jpg'],
+    price: 240,
+    status: null,
+    alias: 'mesa_vidro'
+  },
+  {
+    type: 'Jogos de Tabuleiro',
+    name: 'Munchkin',
+    short: 'Jogo de cartas cômico',
+    long: 'Kill the monsters. Steal the treasure. Stab your buddy.',
+    images: ['munch.jpg', 'munch1.jpg', 'munch2.jpg', 'munch3.jpg', 'munch4.jpg'],
+    price: 30,
+    status: null,
+    alias: 'munchkin_jogo'
+  },
+
+  {
+    type: 'Jogos de Tabuleiro',
+    name: 'Munchkin - Loot Letter',
+    short: 'Jogo de cartas cômico',
+    long: 'Roube o tesouro e apunhale os amigos pelas costas, mas sem aquela bobeira de ficar jogando carta. Aliás, sem parte daquela bobeira. Ok, só com 16 cartas, pelo menos.',
+    images: ['munch_loot.jpg', 'munch_loot1.jpg', 'munch_loot2.jpg'],
+    price: 20,
+    status: null,
+    alias: 'munchkin_loot_jogo'
+  },
+
+  {
+    type: 'Jogos de Tabuleiro',
+    name: 'Scrabble - Retro',
+    short: 'Crossword Game',
+    long: 'Spell your way down memory lane.',
+    images: ['scrab.jpg', 'scrab1.jpg', 'scrab2.jpg', 'scrab3.jpg', 'scrab4.jpg'],
+    price: 25,
+    status: null,
+    alias: 'scrabble'
+  },
+
+  {
+    type: 'Jogos de Tabuleiro',
+    name: 'Three Cheers for Master',
+    short: 'Jogo de Cartas cômico',
+    long: 'Seus minions selvagens nunca foram tão organizados. Regras em Português.',
+    images: ['three_cheers.jpg', 'three_cheers1.jpg', 'three_cheers2.jpg', 'three_cheers3.jpg'],
+    price: 30,
+    status: null,
+    alias: 'three_cheers_jogo'
+  },
 
 ]
