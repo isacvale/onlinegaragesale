@@ -980,7 +980,7 @@ export default [
   long: 'Espie pelas janelas e descubra surpresas! Excelente estado.',
   by: 'Ciranda Cultural',
   images: ['lvi_onibus_anim.jpg', 'lvi_onibus_anim1.jpg','lvi_onibus_anim2.jpg'],
-  price: 10,
+  price: 7,
   status: null,
   alias: 'lvi_onibus_anim'
 },
@@ -992,7 +992,7 @@ export default [
   long: 'Junte-se a Minnie, Margarida, Cuco-Loca e Pluto nesta aventura empolgante!',
   by: 'Disney Junior, DCL',
   images: ['lvi_minnie.jpg', 'lvi_minnie1.jpg'],
-  price: 7,
+  price: 5,
   status: null,
   alias: 'lvi_carinhas_minnie'
 },
@@ -1003,7 +1003,7 @@ export default [
   long: 'Neste livro, você puxa as linguetas para descobrir os números. Vire as páginas e veja como aprender pode ser muito divertido.',
   by: 'Girassol',
   images: ['lvi_num_divert.jpg', 'lvi_num_divert1.jpg','lvi_num_divert2.jpg'],
-  price: 10,
+  price: 7,
   status: null,
   alias: 'lvi_numeros_divertidos_linguetas'
 },
