@@ -922,7 +922,7 @@ export default [
     name: 'Munchkin - Loot Letter',
     short: 'Jogo de cartas cômico',
     long: 'Roube o tesouro e apunhale os amigos pelas costas, mas sem aquela bobeira de ficar jogando carta. Aliás, sem parte daquela bobeira. Ok, só com 16 cartas, pelo menos.',
-    images: ['munch_loot.jpg', 'munch_loot1.jpg', 'munch_loot2.jpg'],
+    images: ['munc_loot.jpg', 'munch_loot1.jpg', 'munch_loot2.jpg'],
     price: 20,
     status: null,
     alias: 'munchkin_loot_jogo'
