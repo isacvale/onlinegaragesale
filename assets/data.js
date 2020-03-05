@@ -950,4 +950,62 @@ export default [
     alias: 'three_cheers_jogo'
   },
 
+  {
+    type: 'livros infantis',
+    name: 'Contos de Hans Christian Andersen',
+    short: 'Releitura de 11 contos clássicos',
+    long: 'Inclui: A Rainha da Neve, As Roupas Novas do Imperador, O Baú Voador, A Pequena Sereia, O Soldadinho de Chumbo, O Rouxinol, A Princesa e a Ervilha, A Polegarzinha, O Baú de Pólvora, O Patinho Feio e Os Cisnes Selvagens.',
+    by: 'Happy Books',
+    images: ['lvi_contos_hans.jpg', 'lvi_contos_hans1.jpg', 'lvi_contos_hans2.jpg', 'lvi_contos_hans3.jpg' ],
+    price: 10,
+    status: null,
+    alias: 'lvi_hans_christian'
+  },
+
+  {
+    type: 'livros',
+    name: 'Manual da Gravidez',
+    short: 'Manual da Gravidez',
+    long: 'Informações, dicas e conselhos essenciais para futuros papais e mamães.',
+    by: 'Jordan, Sarah; Ufberg, David',
+    images: ['lv_manual_gravidez.jpg', 'lv_manual_gravidez1.jpg'],
+    price: 5,
+    status: null,
+    alias: 'lv_manual_gravidez'
+  },
+{
+  type: 'livros infantis',
+  name: 'Ônibus Animado',
+  short: 'A roda do ônibus roda, roda...',
+  long: 'Espie pelas janelas e descubra surpresas! Excelente estado.',
+  by: 'Ciranda Cultural',
+  images: ['lvi_onibus_anim.jpg', 'lvi_onibus_anim1.jpg','lvi_onibus_anim2.jpg'],
+  price: 10,
+  status: null,
+  alias: 'lvi_onibus_anim'
+},
+
+{
+  type: 'livros infantis',
+  name: 'Carinhas - Minnie',
+  short: 'Livro com uma história da Minnie',
+  long: 'Junte-se a Minnie, Margarida, Cuco-Loca e Pluto nesta aventura empolgante!',
+  by: 'Disney Junior, DCL',
+  images: ['lvi_minnie.jpg', 'lvi_minnie1.jpg'],
+  price: 7,
+  status: null,
+  alias: 'lvi_carinhas_minnie'
+},
+{
+  type: 'livros infantis',
+  name: 'Números Divertidos',
+  short: 'Empurre a lingueta para encontrar os números.',
+  long: 'Neste livro, você puxa as linguetas para descobrir os números. Vire as páginas e veja como aprender pode ser muito divertido.',
+  by: 'Girassol',
+  images: ['lvi_num_divert.jpg', 'lvi_num_divert1.jpg','lvi_num_divert2.jpg'],
+  price: 10,
+  status: null,
+  alias: 'lvi_numeros_divertidos_linguetas'
+},
+
 ]
