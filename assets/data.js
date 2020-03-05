@@ -339,7 +339,7 @@ export default [
     long: 'Era usada como criado mudo. Medidas: ',
     images: ['mo_est_peq_d.jpg', 'mo_est_peq_d1.jpg', 'mo_est_peq_d2.jpg'],
     price: 30,
-    status: null,
+    status: 'vendido',
     alias: 'mo_est_peq_d'
   },
 
@@ -871,7 +871,7 @@ export default [
     long: 'Não ocupa muito espaço em planta. Tem rodinhas para facilitar a limpeza. Originalmente usado na despensa mas, recentemente, usado para guardar brinquedos. Não cobramos extra pelos adesivos (que podem ser removidos sem danos ao móvel e ainda têm um pouco de cola).',
     images: ['est_porta.jpg', 'est_porta1.jpg', 'est_porta2.jpg', 'est_porta3.jpg', 'est_porta4.jpg'],
     price: 60,
-    status: null,
+    status: 'vendido',
     alias: 'estante_porta_adesivos'
   },
 
