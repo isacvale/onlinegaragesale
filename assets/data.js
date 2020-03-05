@@ -890,7 +890,7 @@ export default [
     name: 'Hanabi',
     short: 'Jogo colaborativo sobre fogos de artifício',
     long: 'Corra contra o relógio, construa os fotos de artifício e lance os foguetes!',
-    images: ['Hanabi.jpg', 'Hanabi1.jpg', 'Hanabi2.jpg', 'Hanabi3.jpg'],
+    images: ['Hanabi2.jpg', 'Hanabi.jpg', 'Hanabi1.jpg', 'Hanabi3.jpg'],
     price: 15,
     status: null,
     alias: 'hanabi_jogo'
