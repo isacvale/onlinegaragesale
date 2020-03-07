@@ -261,7 +261,7 @@ export default [
     name: 'Carrinho e bebê conforto - Chicco',
     short: 'Bravo Trio Travel System - Meridian',
     long: 'Carrinho, bebê conforto e keyfit (permite fácil coloção do bebê conforto no banco do carro). Prático e fácil de transportar. Vai desde o nascimento até 22 kg. ',
-    images: [''],
+    images: ['stroller_bravo.jpg'],
     price: 400,
     status: 'vendido',
     alias: 'inf_bravo'
