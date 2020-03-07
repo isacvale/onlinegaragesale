@@ -130,14 +130,13 @@ function sendToFirebase (info) {
   db.collection('inquiries').add(info)
     .then(docRef => {
       clearSelectedItems()
-      showMessage('obrigado!', 'Seu pedido foi registrado e entraremos em contato em breve.')
+      showMessage('obrigado!', 'Seu pedido foi registrado e nós entraremos em contato em breve. Como o processamento é manual, no entanto, a resposta pode demorar algumas horas.')
     })
     .catch(err => {
       console.log('Erro:', err)
       showMessage('desculpe!', 'Houve um problema no processamento. Por favor, tente de novo.')
     })
 }
-
 function showMessage (title, body) {
   Stamp('#tpl-message-modal')
     .change(el => {
