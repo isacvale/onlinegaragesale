@@ -1117,7 +1117,7 @@ type: 'CDs',
 name: 'Blues Giants',
 short: 'The Essential Songbook - Trilogy',
 long: '',
-images: ['cd_blues.jpg'],
+images: ['cd_blues_gi.jpg'],
 price: 18,
 status: null,
 alias: 'cd_bues_giants'
@@ -1178,7 +1178,7 @@ type: 'CDs',
 name: 'Irish Traditional Fiddle Music',
 short: 'Reels, Jigs and Polkas / Cieli Band Music',
 long: '',
-images: ['cd_irich_trad.jpg'],
+images: ['cd_irish_trad.jpg'],
 price: 5,
 status: null,
 alias: 'cd_irish_trad_fiddle'
@@ -1209,7 +1209,7 @@ name: 'Songs and dances',
 short: 'of Medieval and Renaissance Times',
 long: 'Played on the original Instruments',
 images: ['cd_med.jpg'],
-price: 10,
+price: 8,
 status: null,
 alias: 'cd_songs_dances_medieval'
 },
@@ -1219,11 +1219,20 @@ name: 'A L\'Estampida',
 short: 'Performed by The Dufay Collective',
 long: 'Medieval Dance Music',
 images: ['cd_med_dance.jpg'],
-price: 10,
+price: 8,
 status: null,
 alias: 'cd_medieval_dance_music_estampida'
 },
-
+{
+type: 'CDs',
+name: 'Miles Davis',
+short: 'CD duplo',
+long: '',
+images: ['cd_miles.jpg'],
+price: 10,
+status: null,
+alias: 'cd_miles_davis'
+},
 
 
 
