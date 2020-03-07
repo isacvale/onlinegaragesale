@@ -144,7 +144,7 @@ export default [
     long: 'Skate roxo em ótimo estado.',
     images: ['es_skate.jpg', 'es_skate1.jpg'],
     price: 50,
-    status: null,
+    status: 'vendido',
     alias: 'es_skate'
   },
 
@@ -155,7 +155,7 @@ export default [
     long: '2 manoplas, aparadoras de soco da marca América em bom estado',
     images: ['es_manopla1.jpg', 'es_manopla.jpg'],
     price: 20,
-    status: null,
+    status: 'vendido',
     alias: 'es_ap_soco'
   },
 
@@ -652,7 +652,7 @@ export default [
     long: 'Jogo de Tabuleiro. É um jogo completo no universo do Smallworld, com novas raças e poderes - compatível com o Smallworld tradicional. Manual em inglês.',
     images: ['smallworld.jpeg', 'smallworld1.jpeg', 'smallworld2.jpeg', 'smallworld3.jpeg'],
     price: 80,
-    status: null,
+    status: 'vendido',
     alias: 'smallworld'
   },
   {
@@ -662,7 +662,7 @@ export default [
     long: 'Jogo de Tabuleiro. Belíssimo jogo de tabuleiro adequado para a família. Manual em francês.',
     images: ['tokaido.jpeg', 'tokaido1.jpeg', 'tokaido2.jpeg'],
     price: 50,
-    status: null,
+    status: 'vendido',
     alias: 'tokaido'
   },
   {
@@ -784,7 +784,7 @@ export default [
     long: 'Neste jogo você e seus amigos exploram “aquele lugar velho assustador na colina. Projetado para 3 a 6 jogadores com 12 anos ou mais. Apresenta vários cenários um layout diferente de outros jogos. Calafrios suficientes para congelar o coração de qualquer fã de terror.',
     images: ['betr.jpg', 'betr1.jpg', 'betr2.jpg', 'betr3.jpg', 'betr4.jpg'],
     price: 35,
-    status: null,
+    status:'vendido',
     alias: 'jt_betrayal_hill'
   },
 
@@ -849,7 +849,7 @@ export default [
     long: 'Construa e outros adivinham. Vem com legos mas, quanto mais peças você tiver, mais divertido fica.',
     images: ['creat.jpg', 'creat1.jpg', 'creat2.jpg', 'creat3.jpg', 'creat4.jpg'],
     price: 55,
-    status: null,
+    status: 'vendido',
     alias: 'creationary'
   },
 
@@ -860,7 +860,7 @@ export default [
     long: 'Estante com rodinhas, com profundidade maior do que para apenas livros e que não ocupa muito espaço de solo. Já usamos para brinquedos, roupa de banho e cama, caixas com ferramentas, etc... ',
     images: ['est_alta_branca.jpg', 'est_alta_branca1.jpg', 'est_alta_branca2.jpg', 'est_alta_branca3.jpg'],
     price: 80,
-    status: null,
+    status: 'vendido',
     alias: 'estante_alta_branca'
   },
 
@@ -892,7 +892,7 @@ export default [
     long: 'Corra contra o relógio, construa os fotos de artifício e lance os foguetes!',
     images: ['Hanabi2.jpg', 'Hanabi.jpg', 'Hanabi1.jpg', 'Hanabi3.jpg'],
     price: 15,
-    status: null,
+    status: 'vendido',
     alias: 'hanabi_jogo'
   },
 
