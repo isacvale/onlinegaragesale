@@ -372,7 +372,7 @@ export default [
     long: 'Usada. Gavetas em bom estado. Medidas: ',
     images: ['mv_comoda.jpg', 'mv_comoda1.jpg', 'mv_comoda2.jpg', 'mv_comoda3.jpg', 'mv_comoda4.jpg'],
     price: 120,
-    status: null,
+    status: 'vendido',
     alias: 'mv_comoda'
   },
 
@@ -1031,9 +1031,9 @@ export default [
   type: 'móveis',
   name: 'Estante baixa infantil',
   short: 'Com caixas da tok stok como gavetas',
-  long: 'Feita sob encomenda, essa estante serve como mesa de atividades. Vem com as gavetas e com bichinhos musicais como puxadores das gavetas. Cada um toca uma música diferente quando a cordinha é acionada. Só as caixas (quando novas) valiam 97 reais cada.',
+  long: 'Feita sob encomenda, essa estante serve como mesa de atividades. Vem com as gavetas e com bichinhos musicais como puxadores das gavetas. Cada um toca uma música diferente quando a cordinha é acionada.',
   images: ['estante_caixas4.jpg', 'estante_caixas.jpg', 'estante_caixas2.jpg', 'estantes_caixas3.jpg', 'estante_caixas5.jpg', 'estante_caixas6.jpg'],
-  price: 780,
+  price: 580,
   status: null,
   alias: 'estante_gavetas_bichinhos'
 },
