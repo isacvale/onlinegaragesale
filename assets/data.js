@@ -317,7 +317,7 @@ export default [
     long: 'Duas almofadas com formas abstraídas do Mickey e da Minnie. Compradas na Riachuelo.',
     images: ['in_alm_disney.jpg', 'in_alm_disney1.jpg'],
     price: 15,
-    status: null,
+    status: 'vendido',
     alias: 'in_alm_disney'
   },
 
@@ -372,7 +372,7 @@ export default [
     long: 'Usada. Gavetas em bom estado. Medidas: ',
     images: ['mv_comoda.jpg', 'mv_comoda1.jpg', 'mv_comoda2.jpg', 'mv_comoda3.jpg', 'mv_comoda4.jpg'],
     price: 120,
-    status: null,
+    status: 'vendido',
     alias: 'mv_comoda'
   },
 
@@ -641,7 +641,7 @@ export default [
     long: 'Jogo de tabuleiro baseado na cultura celta com manual em português de Portugal e espanhol. Ganhador do Spiel des Jahres de 2008. ',
     images: ['keltis.jpeg','keltis1.jpeg', 'keltis2.jpeg'],
     price: 50,
-    status: null,
+    status: 'vendido',
     alias: 'keltis'
   },
 
@@ -849,7 +849,7 @@ export default [
     long: 'Construa e outros adivinham. Vem com legos mas, quanto mais peças você tiver, mais divertido fica.',
     images: ['creat.jpg', 'creat1.jpg', 'creat2.jpg', 'creat3.jpg', 'creat4.jpg'],
     price: 55,
-    status: 'vendido',
+    status: null,
     alias: 'creationary'
   },
 
@@ -1007,5 +1007,95 @@ export default [
   status: null,
   alias: 'lvi_numeros_divertidos_linguetas'
 },
+{
+  type: 'objetos',
+  name: 'Árvore de Natal',
+  short: 'Árvore de Natal de 1.60 m',
+  long: 'Vem com as decorações que já temos de brinde. ',
+  images: ['arvore_natal.jpg', 'arvore_natal1.jpg', 'arvore_natal2.jpg'],
+  price: 290,
+  status: null,
+  alias: 'arvore_natal'
+},
+{
+  type: 'esportes',
+  name: 'Bola de Futebol (mini)',
+  short: 'Bola de Futebol Adidas Champions League (mini)',
+  long: 'Mini Match Ball Replica',
+  images: ['bola_mini.jpg', 'bola_mini1.jpg'],
+  price: 15,
+  status: null,
+  alias: 'bola_adidas_mini'
+},
+{
+  type: 'móveis',
+  name: 'Estante baixa infantil',
+  short: 'Com caixas da tok stok como gavetas',
+  long: 'Feita sob encomenda, essa estante serve como mesa de atividades. Vem com as gavetas e com bichinhos musicais como puxadores das gavetas. Cada um toca uma música diferente quando a cordinha é acionada.',
+  images: ['estante_caixas4.jpg', 'estante_caixas.jpg', 'estante_caixas2.jpg', 'estantes_caixas3.jpg', 'estante_caixas5.jpg', 'estante_caixas6.jpg'],
+  price: 580,
+  status: null,
+  alias: 'estante_gavetas_bichinhos'
+},
+
+{
+  type: 'infantil',
+  name: 'Ofurô',
+  short: 'Ofurô para bebês',
+  long: 'Ajuda a acalmar o bebê nos primeiros meses de vida e a divertir as crianças enquanto elas couberem nele. Sempre sob a supervisão de um adulto.',
+  images: ['ofuro.jpg', 'ofuro1.jpg', 'ofuro2.jpg'],
+  price: 15,
+  status: null,
+  alias: 'ofuro_bebe'
+},
+
+{
+  type: 'móveis',
+  name: 'Sofá',
+  short: 'Sofá reclinável',
+  long: 'Sofá reclinável com cerca de 2.35 cm de comprimento. Vem com o apoio lateral para bebidas.',
+  images: ['sofa.jpg', 'sofa1.jpg', 'sofa2.jpg', 'sofa3.jpg'],
+  price: 620,
+  status: null,
+  alias: 'sofa_da_sala'
+},
+
+{
+  type: 'Video-games',
+  name: 'Tapete para dança',
+  short: 'Tapete compatível com vários consoles e com saída usb',
+  long: 'Tapete para jogos de dança para wii, ps2, PC',
+  images: ['tapete_wii.jpg', 'tapete_wii1.jpg', 'tapete_wii2.jpg'],
+  price: 35,
+  status: null,
+  alias: 'tapete_wii_danca'
+},
+{
+type: 'livros',
+name: 'A gravidez - dia a dia',
+short: 'Livro sobre gravidez',
+long: 'Conselhos abrangentes de uma equipe de especialistas e imagens deslumbrantes de cada dia da gravidez.',
+by: 'Blott, Dra. Maggie',
+images: ['grav_sen.jpg', 'grav_sen1.jpg', 'grav_sen2.jpg'],
+price: 25,
+status: null,
+alias: 'lv_gravidez_senac'
+},
+{
+type: 'livros',
+name: 'Larousse da Gravidez',
+short: 'Livro sobre gravidez',
+long: 'Para viver serenamente o período de gravidez, mês após mês!',
+by: 'Théau, Dra. Anne',
+images: ['lar_grav.jpg', 'lar_grav1.jpg', 'lar_grav2.jpg'],
+price: 20,
+status: null,
+alias: 'lv_gravidez_larousse'
+},
+
+
+
+
+
 
 ]
