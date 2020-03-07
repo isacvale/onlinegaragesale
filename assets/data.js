@@ -1070,6 +1070,31 @@ export default [
   status: null,
   alias: 'tapete_wii_danca'
 },
+{
+type: 'livros',
+name: 'A gravidez - dia a dia',
+short: 'Livro sobre gravidez',
+long: 'Conselhos abrangentes de uma equipe de especialistas e imagens deslumbrantes de cada dia da gravidez.',
+by: 'Blott, Dra. Maggie',
+images: ['grav_sen.jpg', 'grav_sen1.jpg', 'grav_sen2.jpg'],
+price: 35,
+status: null,
+alias: 'lv_gravidez_senac'
+},
+{
+type: 'livros',
+name: 'Larousse da Gravidez',
+short: 'Livro sobre gravidez',
+long: 'Para viver serenamente o período de gravidez, mês após mês!',
+by: 'Théau, Dra. Anne',
+images: ['lar_grav.jpg', 'lar_grav1.jpg', 'lar_grav2.jpg'],
+price: 35,
+status: null,
+alias: 'lv_gravidez_larousse'
+},
+
+
+
 
 
 
