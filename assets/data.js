@@ -1092,6 +1092,137 @@ price: 20,
 status: null,
 alias: 'lv_gravidez_larousse'
 },
+{
+type: 'CDs',
+name: 'Concertos for 2 Violins',
+short: 'Torelli. Albinoni. Vivaldi',
+long: '',
+images: ['cd_2viol.jpg'],
+price: 5,
+status: null,
+alias: 'cd_concertos_for_violins'
+},
+{
+type: 'CDs',
+name: 'Billie Holiday',
+short: 'Music History of the 20th Century',
+long: '',
+images: ['cd_billie.jpg'],
+price: 5,
+status: null,
+alias: 'cd_billie_holiday'
+},
+{
+type: 'CDs',
+name: 'Blues Giants',
+short: 'The Essential Songbook - Trilogy',
+long: '',
+images: ['cd_blues.jpg'],
+price: 18,
+status: null,
+alias: 'cd_bues_giants'
+},
+
+{
+type: 'CDs',
+name: 'Carmina Burana',
+short: '',
+long: '',
+images: ['cd_carmina.jpg'],
+price: 10,
+status: null,
+alias: 'cd_carmina_burana'
+},
+{
+type: 'CDs',
+name: 'Celtic Twilight 4',
+short: 'Celtic Planet',
+long: 'Música Celta pelo Mundo.',
+images: ['cd_celticp.jpg'],
+price: 5,
+status: null,
+alias: 'cd_celtic_planet'
+},
+{
+type: 'CDs',
+name: 'Dance of the Celts',
+short: 'A Narada Collection',
+long: '',
+images: ['cd_dance_celts.jpg'],
+price: 5,
+status: null,
+alias: 'cd_dance_of_the_celts'
+},
+{
+type: 'CDs',
+name: 'Djavan ao vivo',
+short: 'Volumes 1 e 2',
+long: '',
+images: ['cd_djavan.jpg'],
+price: 8,
+status: null,
+alias: 'cd_djavan_ao_vivo'
+},
+{
+type: 'CDs',
+name: 'Traditional Irish Dance Music',
+short: 'A Collection of Jigs, Reels, Polkas and Waltzes',
+long: '',
+images: ['cd_irish.jpg'],
+price: 5,
+status: null,
+alias: 'cd_traditional_irish'
+},
+{
+type: 'CDs',
+name: 'Irish Traditional Fiddle Music',
+short: 'Reels, Jigs and Polkas / Cieli Band Music',
+long: '',
+images: ['cd_irich_trad.jpg'],
+price: 5,
+status: null,
+alias: 'cd_irish_trad_fiddle'
+},
+{
+type: 'CDs',
+name: 'The Jazz Masters Trilogy',
+short: 'Special Collector\'s Edition',
+long: '',
+images: ['cd_jazz.jpg'],
+price: 18,
+status: null,
+alias: 'cd_the_jazz_masters'
+},
+{
+type: 'CDs',
+name: 'Lord of the Dance',
+short: 'Ireland\'s Music Heritage',
+long: '18 All time great irish tracks.',
+images: ['cd_lord_of_dance.jpg'],
+price: 5,
+status: null,
+alias: 'cd_lord_of_the_dance'
+},
+{
+type: 'CDs',
+name: 'Songs and dances',
+short: 'of Medieval and Renaissance Times',
+long: 'Played on the original Instruments',
+images: ['cd_med.jpg'],
+price: 10,
+status: null,
+alias: 'cd_songs_dances_medieval'
+},
+{
+type: 'CDs',
+name: 'A L\'Estampida',
+short: 'Performed by The Dufay Collective',
+long: 'Medieval Dance Music',
+images: ['cd_med_dance.jpg'],
+price: 10,
+status: null,
+alias: 'cd_medieval_dance_music_estampida'
+},
 
 
 
