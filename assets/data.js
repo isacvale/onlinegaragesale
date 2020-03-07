@@ -641,7 +641,7 @@ export default [
     long: 'Jogo de tabuleiro baseado na cultura celta com manual em português de Portugal e espanhol. Ganhador do Spiel des Jahres de 2008. ',
     images: ['keltis.jpeg','keltis1.jpeg', 'keltis2.jpeg'],
     price: 50,
-    status: null,
+    status: 'vendido',
     alias: 'keltis'
   },
 
@@ -849,7 +849,7 @@ export default [
     long: 'Construa e outros adivinham. Vem com legos mas, quanto mais peças você tiver, mais divertido fica.',
     images: ['creat.jpg', 'creat1.jpg', 'creat2.jpg', 'creat3.jpg', 'creat4.jpg'],
     price: 55,
-    status: 'vendido',
+    status: null,
     alias: 'creationary'
   },
 
