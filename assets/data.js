@@ -1033,9 +1033,42 @@ export default [
   short: 'Com caixas da tok stok como gavetas',
   long: 'Feita sob encomenda, essa estante serve como mesa de atividades. Vem com as gavetas e com bichinhos musicais como puxadores das gavetas. Cada um toca uma música diferente quando a cordinha é acionada. Só as caixas (quando novas) valiam 97 reais cada.',
   images: ['estante_caixas4.jpg', 'estante_caixas.jpg', 'estante_caixas2.jpg', 'estantes_caixas3.jpg', 'estante_caixas5.jpg', 'estante_caixas6.jpg'],
-  price: 800,
+  price: 780,
   status: null,
   alias: 'estante_gavetas_bichinhos'
+},
+
+{
+  type: 'infantil',
+  name: 'Ofurô',
+  short: 'Ofurô para bebês',
+  long: 'Ajuda a acalmar o bebê nos primeiros meses de vida e a divertir as crianças enquanto elas couberem nele. Sempre sob a supervisão de um adulto.',
+  images: ['ofuro.jpg', 'ofuro1.jpg', 'ofuro2.jpg'],
+  price: 15,
+  status: null,
+  alias: 'ofuro_bebe'
+},
+
+{
+  type: 'móveis',
+  name: 'Sofá',
+  short: 'Sofá reclinável',
+  long: 'Sofá reclinável com cerca de 2.35 cm de comprimento. Vem com o apoio lateral para bebidas.',
+  images: ['sofa.jpg', 'sofa1.jpg', 'sofa2.jpg', 'sofa3.jpg'],
+  price: 850,
+  status: null,
+  alias: 'sofa_da_sala'
+},
+
+{
+  type: 'Video-games',
+  name: 'Tapete para dança',
+  short: 'Tapete compatível com vários consoles e com saída usb',
+  long: 'Tapete para jogos de dança para wii, ps2, PC',
+  images: ['tapete_wii.jpg', 'tapete_wii1.jpg', 'tapete_wii2.jpg'],
+  price: 35,
+  status: null,
+  alias: 'tapete_wii_danca'
 },
 
 
