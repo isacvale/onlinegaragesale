@@ -56,7 +56,14 @@ function loadCategories () {
 
 function loadItems () {
   const { items, selectedCategories } = window.g.store
-  const selectedItems = items.filter(item => selectedCategories.includes(item.type))
+  const selectedItems = items
+    .filter(item => selectedCategories.includes(item.type))
+    .sort((a, b) => {
+      if (a.status && b.status) return a.name.localeCompare(b.name)
+      if (a.status) return 1
+      if (b.status) return -1
+      return a.name.localeCompare(b.name)
+    })
 
   // Stamp in items that match categories
   Stamp('#tpl-item-card')
@@ -86,7 +93,7 @@ function changeCard (el, item) {
   el.querySelector('.item-card-price').textContent = item.price
   el.querySelector('.item-card-short').textContent = item.short
   el.querySelector('.item-card-image').setAttribute('src', `./assets/pics/${item.images[0]}`)
-  
+
   el.querySelector('.item-card-image').setAttribute('data-alias', item.alias)
   el.querySelector('.item-card-button').setAttribute('data-alias', item.alias)
   el.querySelector('.item-card-name').textContent = item.name

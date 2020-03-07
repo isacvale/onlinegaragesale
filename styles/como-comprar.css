@@ -1,3 +1,7 @@
+.area-como-comprar h2 {
+  margin-top: var(--s-2s);
+}
+
 .area-como-comprar dl {
   display: flex;
   flex-direction: column;
