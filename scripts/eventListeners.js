@@ -35,11 +35,13 @@ const eventListeners = [
   function setOpenItemModal () {
     const catalog = document.querySelector('.area-catalog')
     catalog.addEventListener('click', ev => {
-      const btn = getClickedTarget(ev, 'item-card-button')
+
+      const btn = getClickedTarget(ev, 'item-card-button') || getClickedTarget(ev, 'item-card-image')
       if (btn) {
         const alias = btn.getAttribute('data-alias')
         createItemModal(alias)        
       }
+      
     })
 
     const cart = document.querySelector('.added-wrapper')

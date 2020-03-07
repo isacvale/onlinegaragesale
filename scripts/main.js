@@ -86,6 +86,8 @@ function changeCard (el, item) {
   el.querySelector('.item-card-price').textContent = item.price
   el.querySelector('.item-card-short').textContent = item.short
   el.querySelector('.item-card-image').setAttribute('src', `./assets/pics/${item.images[0]}`)
+  
+  el.querySelector('.item-card-image').setAttribute('data-alias', item.alias)
   el.querySelector('.item-card-button').setAttribute('data-alias', item.alias)
   el.querySelector('.item-card-name').textContent = item.name
   if (window.g.store.selectedItems.includes(item.alias))
