@@ -317,7 +317,7 @@ export default [
     long: 'Duas almofadas com formas abstraídas do Mickey e da Minnie. Compradas na Riachuelo.',
     images: ['in_alm_disney.jpg', 'in_alm_disney1.jpg'],
     price: 15,
-    status: null,
+    status: 'vendido',
     alias: 'in_alm_disney'
   },
 
