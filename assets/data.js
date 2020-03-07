@@ -1007,5 +1007,37 @@ export default [
   status: null,
   alias: 'lvi_numeros_divertidos_linguetas'
 },
+{
+  type: 'objetos',
+  name: 'Árvore de Natal',
+  short: 'Árvore de Natal de 1.60 m',
+  long: 'Vem com as decorações que já temos de brinde. ',
+  images: ['arvore_natal.jpg', 'arvore_natal1.jpg', 'arvore_natal2.jpg'],
+  price: 290,
+  status: null,
+  alias: 'arvore_natal'
+},
+{
+  type: 'esportes',
+  name: 'Bola de Futebol (mini)',
+  short: 'Bola de Futebol Adidas Champions League (mini)',
+  long: 'Mini Match Ball Replica',
+  images: ['bola_mini.jpg', 'bola_mini1.jpg'],
+  price: 15,
+  status: null,
+  alias: 'bola_adidas_mini'
+},
+{
+  type: 'móveis',
+  name: 'Estante baixa infantil',
+  short: 'Com caixas da tok stok como gavetas',
+  long: 'Feita sob encomenda, essa estante serve como mesa de atividades. Vem com as gavetas e com bichinhos musicais como puxadores das gavetas. Cada um toca uma música diferente quando a cordinha é acionada. Só as caixas (quando novas) valiam 97 reais cada.',
+  images: ['estante_caixas4.jpg', 'estante_caixas.jpg', 'estante_caixas2.jpg', 'estantes_caixas3.jpg', 'estante_caixas5.jpg', 'estante_caixas6.jpg'],
+  price: 800,
+  status: null,
+  alias: 'estante_gavetas_bichinhos'
+},
+
+
 
 ]
