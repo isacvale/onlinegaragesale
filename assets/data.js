@@ -1055,7 +1055,7 @@ export default [
   short: 'Sofá reclinável',
   long: 'Sofá reclinável com cerca de 2.35 cm de comprimento. Vem com o apoio lateral para bebidas.',
   images: ['sofa.jpg', 'sofa1.jpg', 'sofa2.jpg', 'sofa3.jpg'],
-  price: 850,
+  price: 620,
   status: null,
   alias: 'sofa_da_sala'
 },
