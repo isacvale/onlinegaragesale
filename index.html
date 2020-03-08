@@ -20,7 +20,7 @@
 <body>
 
   <aside class="area-categories">
-    <h1>Categorias</h1>
+    <h1 id="title-category">Categorias</h1>
     <div class="category-wrapper">
       <template id="tpl-menu-item">
         <button class="menu-item focusable"></div>
@@ -77,7 +77,7 @@
 
 
   <aside class="area-cart">
-    <h1>Lista vazia</h1>
+    <h1 id="title-list">Lista vazia</h1>
     <div class="added-wrapper">
       <template id="tpl-item-brief">
         <article class="item-brief">
@@ -178,6 +178,16 @@
       </div>
     </article>
   </template>
+
+  <nav class="navegacao-mobile">
+    <a class="focusable" aria-label="Categorias." href="#title-category">
+      <img src="assets/icon-categories.svg">
+    </a>
+      
+    <a class="focusable" aria-label="Carrinho." href="#title-list">
+      <img src="assets/icon-cart.svg">
+    </a>
+  </nav>
 
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-app.js"></script>
