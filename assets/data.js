@@ -981,7 +981,7 @@ export default [
   by: 'Ciranda Cultural',
   images: ['lvi_onibus_anim.jpg', 'lvi_onibus_anim1.jpg','lvi_onibus_anim2.jpg'],
   price: 7,
-  status: null,
+  status: 'vendido',
   alias: 'lvi_onibus_anim'
 },
 
@@ -993,7 +993,7 @@ export default [
   by: 'Disney Junior, DCL',
   images: ['lvi_minnie.jpg', 'lvi_minnie1.jpg'],
   price: 5,
-  status: null,
+  status: 'vendido',
   alias: 'lvi_carinhas_minnie'
 },
 {
@@ -1004,7 +1004,7 @@ export default [
   by: 'Girassol',
   images: ['lvi_num_divert.jpg', 'lvi_num_divert1.jpg','lvi_num_divert2.jpg'],
   price: 7,
-  status: null,
+  status: 'vendido',
   alias: 'lvi_numeros_divertidos_linguetas'
 },
 {
