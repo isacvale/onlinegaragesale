@@ -795,7 +795,7 @@ export default [
     long: 'Complementa o jogo Carcassonne. Manual em francês. Precisa do jogo original para ser jogado.',
     images: ['carc_bazars.jpg', 'carc_bazars1.jpg'],
     price: 50,
-    status: null,
+    status: 'vendido',
     alias: 'carcassonne_exp_pontes'
   },
 
@@ -806,7 +806,7 @@ export default [
     long: 'Complementa o jogo Carcassonne.  Precisa do jogo original para ser jogado.',
     images: ['carc_cat.jpg', 'carc_cat1.jpg'],
     price: 30,
-    status: null,
+    status: 'vendido',
     alias: 'carcassonne_exp_catedrais'
   },
 
@@ -817,7 +817,7 @@ export default [
     long: 'Complementa o jogo Carcassonne. Precisa do jogo original para ser jogado.',
     images: ['carc_const.jpg', 'carc_const1.jpg'],
     price: 30,
-    status: null,
+    status: 'vendido',
     alias: 'carcassonne_exp_construtores'
   },
 
@@ -828,7 +828,7 @@ export default [
     long: 'Construa cidades, estradas monastérios e campos e conquiste mais pontos no final da partida. O tabuleiro é construído a cada jogada. O melhor jogo de tabuleiro para iniciantes e um dos mais divertidos para todos.',
     images: ['carcassonne.jpg', 'carcassonne1.jpg', 'carcassonne2.jpg'],
     price: 40,
-    status: null,
+    status: 'vendido',
     alias: 'carcassonne_original'
   },
 
@@ -839,7 +839,7 @@ export default [
     long: 'Uma disputa por terra, matéria-prima e poder em uma ilha onde só um pode ter a soberania. A partir de 10 anos. Outro jogo de tabuleiro clássico e muito divertido.',
     images: ['catan.jpg', 'catan1.jpg', 'catan2.jpg'],
     price: 40,
-    status: null,
+    status: 'vendido',
     alias: 'catan'
   },
   {
@@ -1233,6 +1233,37 @@ price: 10,
 status: null,
 alias: 'cd_miles_davis'
 },
+{
+type: 'CDs',
+name: 'Celine Dion',
+short: '',
+long: '',
+images: ['cd_celine.jpg'],
+price: 5,
+status: null,
+alias: 'cd_celine_dion'
+},
+{
+type: 'CDs',
+name: 'Djavan',
+short: 'CD duplo',
+long: '',
+images: ['cd_djavan.jpg'],
+price: 8,
+status: null,
+alias: 'cd_djavan_duplo'
+},
+{
+type: 'CDs',
+name: 'Best of Irish Fiddle',
+short: 'Florie Brown',
+long: '',
+images: ['cd_fiddle.jpg'],
+price: 5,
+status: null,
+alias: 'cd_irish_fiddle'
+},
+
 
 
 
