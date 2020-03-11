@@ -1,0 +1,44 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navegacao-mobile {
+  background: linear-gradient(
+    135deg,
+    var(--c-primary) 20%,
+    white 200%
+  );
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: .9;
+  z-index: 10;
+  transition: 0.5s all;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.navegacao-mobile a {
+  width: var(--s-4);
+  height: var(--s-4);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navegacao-mobile a img {
+  width: 40%;
+}
+
+@media (min-width: 800px) {
+  .navegacao-mobile {
+    right: var(--s-4n);
+    display: none;
+  }
+}
