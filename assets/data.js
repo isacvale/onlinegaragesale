@@ -1306,5 +1306,31 @@ alias: 'cd_irish_fiddle'
   status: null,
   alias: 'in_esterelizador_chicco'
 },
+{
+  type: 'livros infantis',
+  name: 'toda Mafalda',
+  short: 'da primeira à última tira',
+  long: 'A capa não está em perfeito estado mas, por dentro, está ótimo.',
+  by: 'Quino',
+  images: ['lvi_mafalda.jpg', 'lvi_mafalda1.jpg','lvi_mafalda2.jpg'],
+  price: 35,
+  status: null,
+  alias: 'lvi_toda_mafalda'
+},
+{
+  type: 'livros infantis',
+  name: 'Once Upon a Potty - girl',
+  short: 'Livro para desfralde em inglês',
+  long: 'Em perfeito estado.',
+  by: 'Frankel, Alona',
+  images: ['lvi_once.jpg', 'lvi_once1.jpg','lvi_once2.jpg'],
+  price: 7,
+  status: null,
+  alias: 'lvi_once_upon_a_potty'
+},
+
+
+
+
 
 ]
