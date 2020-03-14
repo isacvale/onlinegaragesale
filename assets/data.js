@@ -1263,9 +1263,29 @@ price: 5,
 status: null,
 alias: 'cd_irish_fiddle'
 },
+{
+  type: 'livros',
+  name: 'Atlas de história medieval',
+  short: 'Atlas de história medieval',
+  long: '',
+  by: '',
+  images: ['lv_atlas.jpg', 'lv_atlas1.jpg','lv_atlas2.jpg'],
+  price: 30,
+  status: null,
+  alias: 'lv_atlas_hist_med'
+},
 
-
-
+{
+  type: 'livros',
+  name: 'Harry Potter',
+  short: 'das páginas para a tela.',
+  long: 'a jornada completa das filmagens',
+  by: 'McCabe, Bob',
+  images: ['lv_harry.jpg', 'lv_harry1.jpg','lv_harry2.jpg', 'lv_harry3.jpg', 'lv_harry4.jpg','lv_harry5.jpg', 'lv_harry6.jpg' ],
+  price: 50,
+  status: null,
+  alias: 'lv_harry'
+},
 
 
 
