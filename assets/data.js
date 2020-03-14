@@ -1286,7 +1286,25 @@ alias: 'cd_irish_fiddle'
   status: null,
   alias: 'lv_harry'
 },
-
-
+{
+  type: 'infantil',
+  name: 'Esterilizador a Vapor',
+  short: 'da philips Avent',
+  long: 'Usado no microondas, ótimo para esterilizar mamadeiras, chupetas, canecas, brinquedos pequenos que podem ser fervidos...',
+  images: ['in_ester_avent2.jpg', 'in_ester_avent1.jpg','in_ester_avent.jpg'],
+  price: 40,
+  status: null,
+  alias: 'in_esterelizador_avent'
+},
+{
+  type: 'infantil',
+  name: 'Esterilizador a Vapor',
+  short: 'da Chicco',
+  long: 'Usado no microondas, ótimo para esterilizar mamadeiras, chupetas, canecas, brinquedos pequenos que podem ser fervidos...',
+  images: ['in_ester_chicco1.jpg', 'in_ester_chicco.jpg','in_ester_chicco2.jpg', 'in_ester_chicco3.jpg'],
+  price: 50,
+  status: null,
+  alias: 'in_esterelizador_chicco'
+},
 
 ]
